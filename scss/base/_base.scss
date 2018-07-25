@@ -1,0 +1,36 @@
+// ==========================================
+// BASE
+// ==========================================
+
+* {
+  font-family: $font-stack-secondary;
+  font-size: $base-font-size;
+  margin: 0;
+  padding: 0;
+
+  ::selection {
+    background: $color-selection;
+  }
+}
+
+a {
+  outline: none;
+}
+
+
+// HEADLINES
+
+h1 {
+  font-family: $font-stack-primary;
+  font-size: 4rem;
+  font-weight: $font-weight-bold;
+  margin: 0;
+}
+
+
+// BODY TEXT
+
+p {
+  color: $color-body-text;
+  line-height: $line-height-body-text;
+}

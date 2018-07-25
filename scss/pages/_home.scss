@@ -1,0 +1,31 @@
+// ==========================================
+// HOME PAGE
+// ==========================================
+
+// HERO
+
+#home-page .hero-section {
+  @include bg-image ($image-folder: "home", $bg-image: "hero");
+  height: 600px;
+  width: 100%;
+
+  @include media-query(small) {
+    @include bg-image ($image-folder: "home", $bg-image: "hero");
+    height: 446px;
+  }
+}
+
+#home-page .hero-section {
+  @include flexbox($justify: flex-start);
+}
+
+#home-page .hero-text {
+  color: $white;
+  margin-left: 10%;
+  width: 425px;
+
+  p {
+    color: $white;
+    font-size: 1.2rem;
+  }
+}
