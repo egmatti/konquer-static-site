@@ -35,11 +35,12 @@
 
 // BOX SHADOW
 
-@mixin box-shadow( $h: 0px , $v: 0.5px , $b: 10px , $s: 0px , $c: $color-box-shadow ) {
+@mixin box-shadow( $h: 0px , $v: 1.5px , $b: 1.5px , $s: 0px , $c: $color-box-shadow ) {
   -webkit-box-shadow: $h $v $b $s $c;
   -moz-box-shadow: $h $v $b $s $c;
   box-shadow: $h $v $b $s $c;
 }
+
 
 // BOX SIZING
 
@@ -58,6 +59,21 @@
       display: table;
       clear: both;
   }
+}
+
+
+// CONTENT WIDTH
+
+@mixin content-width-large() {
+  margin: 0 auto;
+  max-width: $content-max-width-large;
+  width: $content-width-large;
+}
+
+@mixin content-width-medium() {
+  margin: 0 auto;
+  max-width: $content-max-width-medium;
+  width: $content-width-medium;
 }
 
 
@@ -154,7 +170,7 @@
 
 // TEXT SHADOW
 
-@mixin text-shadow( $h: 0px , $v: 0.5px , $b: 5px , $c: $color-text-shadow ) {
+@mixin text-shadow( $h: 0px , $v: 1.5px , $b: 1.5px , $c: $color-text-shadow ) {
   -webkit-text-shadow: $h $v $b $c;
   -moz-text-shadow: $h $v $b $c;
   text-shadow: $h $v $b $c;

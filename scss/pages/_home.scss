@@ -6,6 +6,7 @@
 
 #home-page .hero-section {
   @include bg-image ($image-folder: "home", $bg-image: "hero");
+  @include flexbox($justify: flex-start);
   height: 600px;
   width: 100%;
 
@@ -15,17 +16,32 @@
   }
 }
 
-#home-page .hero-section {
-  @include flexbox($justify: flex-start);
-}
-
 #home-page .hero-text {
+  @include content-width-medium;
   color: $white;
-  margin-left: 10%;
-  width: 425px;
+  margin-top: 60px;
 
   p {
     color: $white;
     font-size: 1.2rem;
+    margin-top: 30px;
+    width: 425px;
+  }
+
+  button {
+    @include box-shadow();
+    @include text-shadow();
+    border: $border-size-button solid $white;
+    color: $white;
+    margin-top: 30px;
+
+    &:hover {
+
+      background: $white;
+      color: $black;
+      -webkit-text-shadow: none;
+      -moz-text-shadow: none;
+      text-shadow: none;
+    }
   }
 }

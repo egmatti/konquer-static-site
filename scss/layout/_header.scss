@@ -1,3 +1,58 @@
 // ==========================================
 // HEADER
 // ==========================================
+
+header {
+    // background: $midnight;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+}
+
+.main-nav {
+    @include content-width-large();
+    @include flexbox($justify: space-between);
+    height: 100%;
+}
+
+.main-nav--left, .main-nav--right {
+
+    li {
+        @include text-shadow();
+        color: $white;
+        display: inline-block;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        list-style-type: none;
+        text-transform: uppercase;
+    }
+}
+
+.main-nav--left {
+
+    li {
+        font-weight: $font-weight-demi-bold;
+        margin-right: 40px;
+    }
+}
+
+.logo {
+    height: 90%;
+    object-fit: contain;
+}
+
+.main-nav--right {
+
+    li {
+        font-weight: $font-weight-medium;
+        margin-left: 40px;
+    }
+}
+
+.search {
+    transform: translateY(3px);
+}
+
+.bag {
+    transform: translateY(7.5px);
+}
