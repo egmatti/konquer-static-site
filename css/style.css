@@ -424,6 +424,14 @@ h1 {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 4rem;
   font-weight: 700;
+  letter-spacing: -0.2px;
+  margin: 0; }
+
+h2 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.2px;
   margin: 0; }
 
 p {
@@ -681,9 +689,17 @@ button {
     color: #fff; }
 
 header {
-  height: 120px;
   position: fixed;
   width: 100%; }
+
+.header--default {
+  background: none;
+  height: 120px; }
+
+.header--scrolled {
+  background: #fff;
+  border-bottom: 4px solid #DBDFE7;
+  height: 96px; }
 
 .main-nav {
   margin: 0 auto;
@@ -695,15 +711,21 @@ header {
   height: 100%; }
 
 .main-nav--left li, .main-nav--right li {
-  -webkit-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
-  -moz-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
-  text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
-  color: #fff;
   display: inline-block;
   font-size: 1rem;
   letter-spacing: 2px;
   list-style-type: none;
   text-transform: uppercase; }
+
+.nav-items--default {
+  -webkit-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
+  -moz-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
+  text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
+  color: #fff; }
+
+.nav-items--scrolled {
+  color: #222222;
+  text-shadow: none; }
 
 .main-nav--left li {
   font-weight: 600;
@@ -768,5 +790,11 @@ header {
       -webkit-text-shadow: none;
       -moz-text-shadow: none;
       text-shadow: none; }
+
+.product-categories {
+  margin: 0 auto;
+  max-width: 1152px;
+  width: 80%;
+  margin-top: 120px; }
 
 /*# sourceMappingURL=style.css.map */

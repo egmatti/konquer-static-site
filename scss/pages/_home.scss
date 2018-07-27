@@ -45,3 +45,11 @@
     }
   }
 }
+
+
+// PRODUCT CATEGORIES
+
+.product-categories {
+  @include content-width-medium();
+  margin-top: 120px;
+}

@@ -10,6 +10,7 @@ $black: #222222;
 $midnight: #292964;
 $indigo: #675FA3;
 $blue-gray: #8797AF;
+$light-blue-gray: #DBDFE7;
 $celadon: #CEEDDB;
 $periwinkle: #A7ADC6;
 $sea-green: #85BAA1;
@@ -18,7 +19,7 @@ $melon: #C26098;
 
 // Color Functions
 $color-body: $white;
-$color-border: rgba($blue-gray, 0.3);
+$color-border: $light-blue-gray;
 
 $color-box-shadow: rgba($black, 0.5);
 $color-text-shadow: rgba($black, 0.5);
@@ -64,10 +65,12 @@ $line-height-body-text: 2rem;
 
 $border-size: 1.5px;
 $border-size-button: 3px;
+$border-size-header: 4px;
 
 $border-divider: $border-size solid $color-border;
 $border-button: $border-size-button solid $color-button;
 $border-button-hover: $border-size solid $color-button-hover;
+$border-header: $border-size-header solid $color-border;
 
 
 // MARGINS AND PADDING

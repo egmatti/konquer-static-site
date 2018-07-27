@@ -24,6 +24,15 @@ h1 {
   font-family: $font-stack-primary;
   font-size: 4rem;
   font-weight: $font-weight-bold;
+  letter-spacing: -0.2px;
+  margin: 0;
+}
+
+h2 {
+  font-family: $font-stack-primary;
+  font-size: 3rem;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.2px;
   margin: 0;
 }
 

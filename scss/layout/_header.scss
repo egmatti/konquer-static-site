@@ -3,10 +3,19 @@
 // ==========================================
 
 header {
-    // background: $midnight;
-    height: 120px;
     position: fixed;
     width: 100%;
+}
+
+.header--default {
+    background: none;
+    height: 120px;
+}
+
+.header--scrolled {
+    background: $color-header;
+    border-bottom: $border-header;
+    height: 96px;
 }
 
 .main-nav {
@@ -18,14 +27,22 @@ header {
 .main-nav--left, .main-nav--right {
 
     li {
-        @include text-shadow();
-        color: $white;
         display: inline-block;
         font-size: 1rem;
         letter-spacing: 2px;
         list-style-type: none;
         text-transform: uppercase;
     }
+}
+
+.nav-items--default {
+    @include text-shadow();
+    color: $white;
+}
+
+.nav-items--scrolled {
+    color: $black;
+    text-shadow: none;
 }
 
 .main-nav--left {
