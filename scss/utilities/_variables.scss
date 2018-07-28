@@ -33,6 +33,8 @@ $color-icon-hover: darken($midnight, 25%);
 
 $color-button: $midnight;
 $color-button-hover: darken($midnight, 25%);
+$color-text-link: $midnight;
+$color-text-link-hover: darken($midnight, 25%);
 
 $color-header: $white;
 
@@ -65,12 +67,14 @@ $line-height-body-text: 2rem;
 
 $border-size: 1.5px;
 $border-size-button: 3px;
-$border-size-header: 4px;
+$border-size-header: 2px;
+$border-size-frame: 4px;
 
 $border-divider: $border-size solid $color-border;
 $border-button: $border-size-button solid $color-button;
 $border-button-hover: $border-size solid $color-button-hover;
 $border-header: $border-size-header solid $color-border;
+$border-frame: $border-size-frame solid $color-border;
 
 
 // MARGINS AND PADDING

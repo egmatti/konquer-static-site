@@ -688,9 +688,24 @@ button {
     background: #292964;
     color: #fff; }
 
+.text-link {
+  color: #292964;
+  float: right;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9725rem;
+  letter-spacing: 1.6px;
+  text-transform: uppercase; }
+  .text-link:hover {
+    transform: translateX(5px); }
+  .text-link:after {
+    content: url("../images/arrow.svg");
+    padding-left: 10px; }
+
 header {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 10; }
 
 .header--default {
   background: none;
@@ -698,7 +713,7 @@ header {
 
 .header--scrolled {
   background: #fff;
-  border-bottom: 4px solid #DBDFE7;
+  border-bottom: 2px solid #DBDFE7;
   height: 96px; }
 
 .main-nav {
@@ -732,8 +747,12 @@ header {
   margin-right: 40px; }
 
 .logo {
-  height: 90%;
-  object-fit: contain; }
+  height: 85%;
+  left: 50%;
+  object-fit: contain;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 7px; }
 
 .main-nav--right li {
   font-weight: 500;
@@ -796,5 +815,109 @@ header {
   max-width: 1152px;
   width: 80%;
   margin-top: 120px; }
+
+.main-category {
+  width: 45%; }
+  .main-category img {
+    object-fit: contain;
+    margin-bottom: 20px;
+    width: 100%; }
+
+.alternate-categories {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%; }
+  .alternate-categories img {
+    object-fit: contain;
+    margin-bottom: 20px;
+    width: 100%; }
+
+.for-women {
+  position: relative; }
+
+.for-women h2:before {
+  content: url("../images/home/women-chopsticks.svg");
+  position: absolute;
+  left: -35px;
+  top: -20px;
+  transform: scale(0.8);
+  z-index: -5; }
+
+.womens-categories {
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+
+.womens-categories .alternate-categories {
+  margin-right: 15%; }
+
+.womens-no-gi {
+  margin-bottom: 40px; }
+
+.for-women .frame {
+  border: 4px solid #DBDFE7;
+  height: 762px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 85%;
+  z-index: -10; }
+
+.for-men {
+  margin-top: 120px;
+  position: relative; }
+
+.for-men h2 {
+  left: 45%;
+  position: absolute;
+  top: -10px; }
+  .for-men h2:before {
+    content: url("../images/home/men-chopsticks.svg");
+    position: absolute;
+    left: -40px;
+    top: -10px;
+    transform: scale(0.8);
+    z-index: -5; }
+
+.mens-categories {
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+
+.mens-categories .alternate-categories {
+  margin-left: 7.5%; }
+
+.mens-categories .main-category {
+  margin-right: 5%;
+  position: relative; }
+
+.mens-no-gi {
+  margin-bottom: 40px; }
+
+.for-men .frame--large {
+  border: 4px solid #DBDFE7;
+  height: 979px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 70%;
+  z-index: -10; }
+
+.for-men .frame--small {
+  border: 4px solid #DBDFE7;
+  height: 554px;
+  right: -11%;
+  position: absolute;
+  top: -60px;
+  width: 80%;
+  z-index: -10; }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@
 header {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .header--default {
@@ -54,8 +55,12 @@ header {
 }
 
 .logo {
-    height: 90%;
+    height: 85%;
+    left: 50%;
     object-fit: contain;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 7px;
 }
 
 .main-nav--right {
