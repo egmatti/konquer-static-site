@@ -37,8 +37,11 @@ $color-text-link: $midnight;
 $color-text-link-hover: darken($midnight, 25%);
 
 $color-header: $white;
-
 $color-footer: $white;
+
+$color-product-name: $black;
+$color-product-name-hover: $indigo;
+$color-product-price: rgba($black, 0.75);
 
 
 // FONTS

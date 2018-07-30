@@ -10,13 +10,13 @@ header {
 
 .header--default {
     background: none;
-    height: 120px;
+    height: 125px;
 }
 
 .header--scrolled {
     background: $color-header;
     border-bottom: $border-header;
-    height: 96px;
+    height: 75px;
 }
 
 .main-nav {
@@ -28,6 +28,7 @@ header {
 .main-nav--left, .main-nav--right {
 
     li {
+        cursor: pointer;
         display: inline-block;
         font-size: 1rem;
         letter-spacing: 2px;
@@ -55,12 +56,20 @@ header {
 }
 
 .logo {
-    height: 85%;
     left: 50%;
     object-fit: contain;
     position: absolute;
     transform: translateX(-50%);
+}
+
+.logo--default {
+    height: 85%;
     top: 7px;
+}
+
+.logo--scrolled {
+    height: 45%;
+    top: 22.5px;
 }
 
 .main-nav--right {

@@ -702,6 +702,26 @@ button {
     content: url("../images/arrow.svg");
     padding-left: 10px; }
 
+.product-image {
+  cursor: pointer; }
+
+.product-name {
+  color: #222222;
+  cursor: pointer;
+  display: block;
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 600;
+  text-align: center; }
+  .product-name:hover {
+    color: #675FA3; }
+
+.product-price {
+  color: rgba(34, 34, 34, 0.75);
+  display: block;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-weight: 500;
+  text-align: center; }
+
 header {
   position: fixed;
   width: 100%;
@@ -709,12 +729,12 @@ header {
 
 .header--default {
   background: none;
-  height: 120px; }
+  height: 125px; }
 
 .header--scrolled {
   background: #fff;
   border-bottom: 2px solid #DBDFE7;
-  height: 96px; }
+  height: 75px; }
 
 .main-nav {
   margin: 0 auto;
@@ -726,6 +746,7 @@ header {
   height: 100%; }
 
 .main-nav--left li, .main-nav--right li {
+  cursor: pointer;
   display: inline-block;
   font-size: 1rem;
   letter-spacing: 2px;
@@ -747,12 +768,18 @@ header {
   margin-right: 40px; }
 
 .logo {
-  height: 85%;
   left: 50%;
   object-fit: contain;
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.logo--default {
+  height: 85%;
   top: 7px; }
+
+.logo--scrolled {
+  height: 45%;
+  top: 22.5px; }
 
 .main-nav--right li {
   font-weight: 500;
@@ -810,114 +837,27 @@ header {
       -moz-text-shadow: none;
       text-shadow: none; }
 
-.product-categories {
+.popular-products-section {
   margin: 0 auto;
   max-width: 1152px;
   width: 80%;
-  margin-top: 120px; }
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px; }
 
-.main-category {
-  width: 45%; }
-  .main-category img {
+.popular-product {
+  width: 22%; }
+  .popular-product img {
     object-fit: contain;
-    margin-bottom: 20px;
     width: 100%; }
 
-.alternate-categories {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 30%; }
-  .alternate-categories img {
-    object-fit: contain;
-    margin-bottom: 20px;
-    width: 100%; }
+.product-name {
+  font-size: 1.125rem;
+  margin-top: 15px; }
 
-.for-women {
-  position: relative; }
-
-.for-women h2:before {
-  content: url("../images/home/women-chopsticks.svg");
-  position: absolute;
-  left: -35px;
-  top: -20px;
-  transform: scale(0.8);
-  z-index: -5; }
-
-.womens-categories {
-  align-items: center;
-  display: flex;
-  justify-content: space-between; }
-
-.womens-categories .alternate-categories {
-  margin-right: 15%; }
-
-.womens-no-gi {
-  margin-bottom: 40px; }
-
-.for-women .frame {
-  border: 4px solid #DBDFE7;
-  height: 762px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 85%;
-  z-index: -10; }
-
-.for-men {
-  margin-top: 120px;
-  position: relative; }
-
-.for-men h2 {
-  left: 45%;
-  position: absolute;
-  top: -10px; }
-  .for-men h2:before {
-    content: url("../images/home/men-chopsticks.svg");
-    position: absolute;
-    left: -40px;
-    top: -10px;
-    transform: scale(0.8);
-    z-index: -5; }
-
-.mens-categories {
-  align-items: center;
-  display: flex;
-  justify-content: space-between; }
-
-.mens-categories .alternate-categories {
-  margin-left: 7.5%; }
-
-.mens-categories .main-category {
-  margin-right: 5%;
-  position: relative; }
-
-.mens-no-gi {
-  margin-bottom: 40px; }
-
-.for-men .frame--large {
-  border: 4px solid #DBDFE7;
-  height: 979px;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 70%;
-  z-index: -10; }
-
-.for-men .frame--small {
-  border: 4px solid #DBDFE7;
-  height: 554px;
-  right: -11%;
-  position: absolute;
-  top: -60px;
-  width: 80%;
-  z-index: -10; }
+.product-price {
+  font-size: 1rem;
+  margin-top: 7.5px; }
 
 /*# sourceMappingURL=style.css.map */

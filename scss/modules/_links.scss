@@ -1,3 +1,22 @@
 // ==========================================
 // LINKS
 // ==========================================
+
+.text-link {
+    color: $color-text-link;
+    float: right;
+    font-family: $font-stack-secondary;
+    font-weight: 600;
+    font-size: 0.9725rem;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+
+    &:hover {
+        transform: translateX(5px);
+    }
+
+    &:after {
+        content: url('../images/arrow.svg');
+        padding-left: 10px;
+    }
+}
