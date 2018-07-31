@@ -21,6 +21,7 @@ a {
 // HEADLINES
 
 h1 {
+  color: $color-headline;
   font-family: $font-stack-primary;
   font-size: 4rem;
   font-weight: $font-weight-bold;
@@ -29,11 +30,22 @@ h1 {
 }
 
 h2 {
+  color: $color-headline;
   font-family: $font-stack-primary;
   font-size: 3rem;
   font-weight: $font-weight-bold;
   letter-spacing: -0.2px;
   margin: 0;
+}
+
+h4 {
+  color: $color-headline;
+  font-family: $font-stack-secondary;
+  font-size: 1.2rem;
+  font-weight: $font-weight-demi-bold;
+  letter-spacing: 2.4px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 

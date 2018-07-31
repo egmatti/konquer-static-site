@@ -421,6 +421,7 @@ a {
   outline: none; }
 
 h1 {
+  color: #222222;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 4rem;
   font-weight: 700;
@@ -428,14 +429,24 @@ h1 {
   margin: 0; }
 
 h2 {
+  color: #222222;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: -0.2px;
   margin: 0; }
 
-p {
+h4 {
   color: #222222;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  margin: 0;
+  text-transform: uppercase; }
+
+p {
+  color: rgba(34, 34, 34, 0.75);
   line-height: 2rem; }
 
 /* Slider */
@@ -733,7 +744,7 @@ header {
 
 .header--scrolled {
   background: #fff;
-  border-bottom: 2px solid #DBDFE7;
+  border-bottom: 2px solid rgba(219, 223, 231, 0.5);
   height: 75px; }
 
 .main-nav {
@@ -813,8 +824,9 @@ header {
   margin: 0 auto;
   max-width: 1152px;
   width: 80%;
-  color: #fff;
   margin-top: 60px; }
+  #home-page .hero-text h1 {
+    color: #fff; }
   #home-page .hero-text p {
     color: #fff;
     font-size: 1.2rem;
@@ -859,5 +871,52 @@ header {
 .product-price {
   font-size: 1rem;
   margin-top: 7.5px; }
+
+.about-section {
+  margin-top: 150px; }
+
+.about-section .frame {
+  margin: 0 auto;
+  max-width: 1152px;
+  width: 80%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 4px solid #DBDFE7;
+  padding: 75px 0; }
+  .about-section .frame h4 {
+    margin-bottom: 30px; }
+  .about-section .frame p {
+    text-align: center;
+    width: 50%; }
+
+.instagram-section {
+  margin: 0 auto;
+  max-width: 1152px;
+  width: 80%;
+  margin-top: 150px;
+  text-align: center; }
+
+.instagram-slider-for--desktop {
+  display: block; }
+
+.instagram-section .slick-prev:before, .slick-next:before {
+  color: #292964; }
+  .instagram-section .slick-prev:before:hover, .slick-next:before:hover {
+    color: #04040a; }
+
+.instagram-div {
+  height: auto;
+  padding: 75px 0; }
+
+.instagram-slider-for__post {
+  align-items: baseline;
+  display: flex;
+  justify-content: center; }
+
+.instagram-slider-for__post img {
+  height: 275px;
+  object-fit: contain; }
 
 /*# sourceMappingURL=style.css.map */

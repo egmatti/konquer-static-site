@@ -18,8 +18,11 @@
 
 #home-page .hero-text {
   @include content-width-medium;
-  color: $white;
   margin-top: 60px;
+
+  h1 {
+    color: $white;
+  }
 
   p {
     color: $white;
@@ -73,5 +76,61 @@
   font-size: 1rem;
   margin-top: 7.5px;
 }
-  
 
+
+// ABOUT
+
+.about-section {
+  margin-top: 150px;
+}
+
+.about-section .frame {
+  @include content-width-medium();
+  @include flexbox($direction: column);
+  border: $border-frame;
+  padding: 75px 0;
+
+  h4 {
+    margin-bottom: 30px;
+  }
+
+  p {
+    text-align: center;
+    width: 50%;
+  }
+}
+
+
+// INSTAGRAM
+
+.instagram-section {
+  @include content-width-medium();
+  margin-top: 150px;
+  text-align: center;
+}
+
+.instagram-slider-for--desktop {
+  display: block;
+}
+
+.instagram-section .slick-prev:before, .slick-next:before {
+    color: $color-icon;
+
+    &:hover {
+      color: $color-icon-hover;
+    }
+  }
+
+.instagram-div {
+  height: auto;
+  padding: 75px 0;
+}
+
+.instagram-slider-for__post {
+  @include flexbox($align: baseline);
+}
+
+.instagram-slider-for__post img {
+  height: 275px;
+  object-fit: contain;
+}
