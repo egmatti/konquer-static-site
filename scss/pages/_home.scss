@@ -82,6 +82,27 @@
 
 .about-section {
   margin-top: 150px;
+  position: relative;
+
+  &:before {
+    content: url("../images/home/about/left-accent.png");
+    left: 0;
+    position: absolute;
+    top: -1000px;
+    transform: scale(0.5);
+    transform-origin: left center;
+    z-index: -10;
+  }
+
+    &:after {
+    content: url("../images/home/about/right-accent.png");
+    right: 0;
+    position: absolute;
+    top: -725px;
+    transform: scale(0.5);
+    transform-origin: right center;
+    z-index: -10;
+  }
 }
 
 .about-section .frame {
@@ -109,6 +130,20 @@
   text-align: center;
 }
 
+.instagram-section h2 {
+  position: relative;
+
+  &:after {
+     content: url("../images/home/instagram/chopsticks.svg");
+    position: absolute;
+    bottom: 0px;
+    left: 255px;
+    right: 0px;
+    top: -20px;
+    z-index: -5;
+  }
+}
+
 .instagram-slider-for--desktop {
   display: block;
 }
@@ -126,6 +161,10 @@
   padding: 75px 0;
 }
 
+.instagram-section .slick-initialized .slick-slide {
+  display: flex;
+}
+
 .instagram-slider-for__post {
   @include flexbox($align: baseline);
 }
@@ -133,4 +172,23 @@
 .instagram-slider-for__post img {
   height: 275px;
   object-fit: contain;
+}
+
+.instagram-section .slick-prev, .instagram-section .slick-next {
+  top: 15%;
+  transform: scale(0.80);
+}
+
+.instagram-section .slick-prev:before {
+  height: 25px;
+  object-fit: contain;
+}
+
+.instagram-section .slick-next:before {
+  height: 25px;
+  object-fit: contain;
+}
+
+.instagram-section button {
+  margin-top: 75px;
 }
