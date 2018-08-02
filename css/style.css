@@ -219,7 +219,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-button,
+button, .submit-button,
 input,
 optgroup,
 select,
@@ -237,7 +237,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-button,
+button, .submit-button,
 input {
   /* 1 */
   overflow: visible; }
@@ -246,7 +246,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-button,
+button, .submit-button,
 select {
   /* 1 */
   text-transform: none; }
@@ -256,7 +256,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-button,
+button, .submit-button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
@@ -266,7 +266,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
+button::-moz-focus-inner, .submit-button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
@@ -276,7 +276,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
+button:-moz-focusring, .submit-button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
@@ -415,7 +415,7 @@ template {
   margin: 0;
   padding: 0; }
   * ::selection {
-    background: #8797AF; }
+    background: #CEEDDB; }
 
 a {
   outline: none; }
@@ -643,7 +643,7 @@ p {
   padding: 0;
   cursor: pointer; }
 
-.slick-dots li button {
+.slick-dots li button, .slick-dots li .submit-button {
   font-size: 0;
   line-height: 0;
   display: block;
@@ -656,15 +656,17 @@ p {
   outline: none;
   background: transparent; }
 
-.slick-dots li button:hover,
-.slick-dots li button:focus {
+.slick-dots li button:hover, .slick-dots li .submit-button:hover,
+.slick-dots li button:focus,
+.slick-dots li .submit-button:focus {
   outline: none; }
 
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before {
+.slick-dots li button:hover:before, .slick-dots li .submit-button:hover:before,
+.slick-dots li button:focus:before,
+.slick-dots li .submit-button:focus:before {
   opacity: 1; }
 
-.slick-dots li button:before {
+.slick-dots li button:before, .slick-dots li .submit-button:before {
   font-family: 'slick';
   font-size: 6px;
   line-height: 20px;
@@ -680,9 +682,13 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.slick-dots li.slick-active button:before {
+.slick-dots li.slick-active button:before, .slick-dots li.slick-active .submit-button:before {
   opacity: .75;
   color: black; }
+
+.divider {
+  border-top: 3px solid #DBDFE7;
+  width: 100%; }
 
 .slick-prev:before {
   content: url("../images/home/instagram/left-arrow.svg"); }
@@ -690,7 +696,7 @@ p {
 .slick-next:before {
   content: url("../images/home/instagram/right-arrow.svg"); }
 
-button {
+button, .submit-button {
   background: none;
   color: #292964;
   cursor: pointer;
@@ -701,9 +707,14 @@ button {
   letter-spacing: 2.4px;
   padding: 0.7rem 1.6rem;
   text-transform: uppercase; }
-  button:hover {
+  button:hover, .submit-button:hover {
     background: #292964;
     color: #fff; }
+
+.submit-button {
+  background: #292964;
+  border: none;
+  color: #fff; }
 
 .text-link {
   color: #292964;
@@ -718,6 +729,20 @@ button {
   .text-link:after {
     content: url("../images/arrow.svg");
     padding-left: 10px; }
+
+input {
+  border: 3px solid rgba(41, 41, 100, 0.3);
+  padding-left: 10px; }
+  input::placeholder {
+    color: rgba(34, 34, 34, 0.5); }
+  input::-webkit-input-placeholder {
+    color: rgba(34, 34, 34, 0.5); }
+  input::-moz-placeholder {
+    color: rgba(34, 34, 34, 0.5); }
+  input:-ms-input-placeholder {
+    color: rgba(34, 34, 34, 0.5); }
+  input:-moz-placeholder {
+    color: rgba(34, 34, 34, 0.5); }
 
 .product-image {
   cursor: pointer; }
@@ -808,6 +833,106 @@ header {
 .bag {
   transform: translateY(7.5px); }
 
+footer {
+  width: 100%; }
+
+.footer-nav {
+  margin: 0 auto;
+  max-width: 1152px;
+  width: 80%;
+  align-items: start;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 100px 0px; }
+
+.footer-nav--customer-care, .footer-nav--information, .footer-nav--social-media {
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0; }
+  .footer-nav--customer-care h4, .footer-nav--information h4, .footer-nav--social-media h4 {
+    margin-bottom: 15px; }
+
+.customer-care-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%; }
+
+.footer-nav--customer-care ul, .footer-nav--information ul {
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0; }
+  .footer-nav--customer-care ul li, .footer-nav--information ul li {
+    align-self: start;
+    list-style-type: none;
+    color: rgba(34, 34, 34, 0.75);
+    font-size: 1rem;
+    line-height: 45px;
+    text-decoration: none; }
+
+.footer-nav--social-media h4 {
+  margin-bottom: 30px; }
+
+.footer-nav--social-media ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 175px; }
+  .footer-nav--social-media ul li {
+    list-style-type: none; }
+
+.subfooter {
+  margin: 0 auto;
+  max-width: 1152px;
+  width: 80%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0; }
+
+small {
+  color: rgba(34, 34, 34, 0.75);
+  font-size: 0.9rem; }
+  small a {
+    color: rgba(34, 34, 34, 0.75);
+    font-size: 0.9rem;
+    text-decoration: none; }
+
+.email-sign-up-section {
+  background: rgba(167, 173, 198, 0.2);
+  height: 315px;
+  margin-top: 150px;
+  width: 100%; }
+
+.email-sign-up-content {
+  margin: 0 auto;
+  max-width: 1296px;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%; }
+
+.email-sign-up-text {
+  height: auto;
+  width: 535px; }
+  .email-sign-up-text h2 {
+    position: relative; }
+    .email-sign-up-text h2:after {
+      content: url("../images/email-sign-up/flower.svg");
+      position: absolute;
+      left: 335px;
+      right: 0px;
+      top: 5px; }
+  .email-sign-up-text p {
+    margin-top: 30px; }
+
+.email-sign-up-input {
+  font-size: 1.1rem;
+  height: 40px;
+  margin-right: -2.5px;
+  width: 435px; }
+
 #home-page .hero-section {
   background: url("../images/home/hero.png");
   background-repeat: no-repeat;
@@ -838,7 +963,7 @@ header {
     font-size: 1.2rem;
     margin-top: 30px;
     width: 425px; }
-  #home-page .hero-text button {
+  #home-page .hero-text button, #home-page .hero-text .submit-button {
     -webkit-box-shadow: 0px 1.5px 1.5px 0px rgba(34, 34, 34, 0.5);
     -moz-box-shadow: 0px 1.5px 1.5px 0px rgba(34, 34, 34, 0.5);
     box-shadow: 0px 1.5px 1.5px 0px rgba(34, 34, 34, 0.5);
@@ -848,7 +973,7 @@ header {
     border: 3px solid #fff;
     color: #fff;
     margin-top: 30px; }
-    #home-page .hero-text button:hover {
+    #home-page .hero-text button:hover, #home-page .hero-text .submit-button:hover {
       background: #fff;
       color: #222222;
       -webkit-text-shadow: none;
@@ -908,9 +1033,8 @@ header {
   flex-direction: column;
   border: 4px solid #DBDFE7;
   padding: 75px 0; }
-  .about-section .frame h4 {
-    margin-bottom: 30px; }
   .about-section .frame p {
+    margin-top: 30px;
     text-align: center;
     width: 50%; }
 
@@ -940,7 +1064,7 @@ header {
   .instagram-section .slick-prev:before:hover, .slick-next:before:hover {
     color: #04040a; }
 
-.instagram-div {
+.instagram-content {
   height: auto;
   padding: 75px 0; }
 
@@ -967,8 +1091,5 @@ header {
 .instagram-section .slick-next:before {
   height: 25px;
   object-fit: contain; }
-
-.instagram-section button {
-  margin-top: 75px; }
 
 /*# sourceMappingURL=style.css.map */

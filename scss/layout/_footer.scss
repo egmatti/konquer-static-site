@@ -1,3 +1,77 @@
 // ==========================================
 // FOOTER
 // ==========================================
+
+footer {
+    width: 100%;
+}
+
+.footer-nav {
+    @include content-width-medium();    
+    align-items: start;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 100px 0px;
+}
+
+.footer-nav--customer-care, .footer-nav--information, .footer-nav--social-media {
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+
+    h4 {
+        margin-bottom: 15px;
+    }
+}
+
+.customer-care-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.footer-nav--customer-care ul, .footer-nav--information ul {
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+
+    li {
+        align-self: start;
+        list-style-type: none;
+        color: $color-body-text;
+        font-size: 1rem;
+        line-height: 45px;
+        text-decoration: none;
+    }
+}
+
+.footer-nav--social-media h4 {
+    margin-bottom: 30px;
+}
+
+.footer-nav--social-media ul {
+    @include flexbox($justify: space-between);
+    width: 175px;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.subfooter {
+    @include content-width-medium();
+    @include flexbox($justify: space-between);
+    padding: 30px 0;
+}
+
+small {
+  color: rgba($black, 0.75);
+  font-size: 0.9rem;
+
+    a {
+        color: rgba($black, 0.75);
+        font-size: 0.9rem;
+        text-decoration: none;
+    }
+}

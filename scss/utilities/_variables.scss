@@ -26,7 +26,7 @@ $color-text-shadow: rgba($black, 0.5);
 
 $color-headline: $black;
 $color-body-text: rgba($black, 0.75);
-$color-selection: $blue-gray;
+$color-selection: $celadon;
 
 $color-icon: $midnight;
 $color-icon-hover: darken($midnight, 25%);
@@ -35,6 +35,7 @@ $color-button: $midnight;
 $color-button-hover: darken($midnight, 25%);
 $color-text-link: $midnight;
 $color-text-link-hover: darken($midnight, 25%);
+$color-form: rgba($midnight, 0.3);
 
 $color-header: $white;
 $color-header-border: rgba($color-border, 0.5);
@@ -69,14 +70,16 @@ $line-height-body-text: 2rem;
 
 // BORDERS
 
-$border-size: 1.5px;
+$border-size: 3px;
 $border-size-button: 3px;
+$border-size-form: 3px;
 $border-size-header: 2px;
 $border-size-frame: 4px;
 
 $border-divider: $border-size solid $color-border;
 $border-button: $border-size-button solid $color-button;
-$border-button-hover: $border-size solid $color-button-hover;
+$border-button-hover: $border-size-button solid $color-button-hover;
+$border-form: $border-size-form solid $color-form;
 $border-header: $border-size-header solid $color-header-border;
 $border-frame: $border-size-frame solid $color-border;
 

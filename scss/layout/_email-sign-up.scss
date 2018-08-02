@@ -1,0 +1,45 @@
+// ==========================================
+// EMAIL SIGN UP
+// ==========================================
+
+.email-sign-up-section {
+  background: rgba($periwinkle, 0.2);
+  height: 315px;
+  margin-top: 150px;
+  width: 100%;
+}
+
+.email-sign-up-content {
+  @include content-width-large();
+  @include flexbox($justify: space-between);
+  height: 100%;
+}
+
+.email-sign-up-text {
+  height: auto;
+  width: 535px;
+
+  h2 {
+    position: relative;
+
+    &:after {
+      content: url("../images/email-sign-up/flower.svg");
+      position: absolute;
+      left: 335px;
+      right: 0px;
+      top: 5px;
+    }
+  }
+
+  p {
+    margin-top: 30px;
+  }
+}
+
+.email-sign-up-input {
+  font-size: 1.1rem;
+  height: 40px;
+  margin-right: -2.5px;
+  width: 435px;
+}
+
