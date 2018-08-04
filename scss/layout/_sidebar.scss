@@ -1,0 +1,43 @@
+// ==========================================
+// SIDEBAR
+// ==========================================
+
+.sidebar {
+    float: left;
+    margin-top: 75px;
+    width: 20%;
+}
+
+.sidebar-nav {
+
+    h4 {
+        line-height: 45px;
+    }
+    
+    ul li {
+        color: $color-body-text;
+        font-size: 1rem;
+        line-height: 45px;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    ul ul {
+        margin-left: 25px;
+    }
+}
+
+.sidebar-nav__current-page {
+    color: $black;
+    text-decoration: underline;
+}
+
+.sidebar-nav:not(:first-of-type) {
+    margin-top: 75px;
+}
+
+.main-content {
+    float: right;
+    margin-top: 75px;
+    width: 70%;
+}

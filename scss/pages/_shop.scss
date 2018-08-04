@@ -2,3 +2,29 @@
 // SHOP PAGE
 // ==========================================
 
+#shop-page .content {
+    @include content-width-large();
+    margin-top: 175px;
+}
+
+#shop-page .category-name {
+    margin-top: 30px;
+}
+
+#shop-page .product-results {
+    color: $color-body-text;
+}
+
+#shop-page .product-controls {
+    @include flexbox($justify: space-between);
+}
+
+#shop-page .product-sorting {
+    margin-right: 35px;
+}
+
+#shop-page .products-grid {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr 50px 1fr;
+    width: 100%;
+}

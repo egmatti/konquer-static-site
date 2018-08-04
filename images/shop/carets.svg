@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Carets</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.75" font-family="FontAwesome" font-size="13.5" font-weight="normal" letter-spacing="1.21500009">
+        <g id="Sorting" transform="translate(-184.000000, -9.000000)" fill="#222222">
+            <g id="Carets">
+                <g transform="translate(184.000000, 4.000000)">
+                    <text id="">
+                        <tspan x="0" y="12"></tspan>
+                    </text>
+                    <text id="" transform="translate(4.500000, 16.000000) scale(1, -1) translate(-4.500000, -16.000000) ">
+                        <tspan x="0" y="21"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

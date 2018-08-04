@@ -20,3 +20,13 @@
         padding-left: 10px;
     }
 }
+
+.breadcrumbs {
+    @extend p;
+
+    @include e(current-page) {
+        color: $black;
+        font-weight: $font-weight-demi-bold;
+    }
+    
+}
