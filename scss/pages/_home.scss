@@ -52,13 +52,13 @@
 
 // POPULAR PRODUCTS
 
-.popular-products-section {
+#home-page .popular-products-section {
   @include content-width-medium();
   @include flexbox($justify: space-between);
   margin-top: 35px;
 }
 
-.popular-product {
+#home-page .popular-product {
   width: 22%;
 
   img {
@@ -67,12 +67,12 @@
   }
 }
 
-.product-name {
+#home-page .product-name {
   font-size: 1.125rem;
   margin-top: 15px;
 }
 
-.product-price {
+#home-page .product-price {
   font-size: 1rem;
   margin-top: 7.5px;
 }
@@ -80,7 +80,7 @@
 
 // ABOUT
 
-.about-section {
+#home-page .about-section {
   margin-top: 150px;
   position: relative;
 
@@ -105,7 +105,7 @@
   }
 }
 
-.about-section .frame {
+#home-page .about-section .frame {
   @include content-width-medium();
   @include flexbox($direction: column);
   border: $border-frame;
@@ -121,13 +121,13 @@
 
 // INSTAGRAM
 
-.instagram-section {
+#home-page .instagram-section {
   @include content-width-medium();
   margin-top: 150px;
   text-align: center;
 }
 
-.instagram-section h2 {
+#home-page .instagram-section h2 {
   position: relative;
 
   &:after {
@@ -141,11 +141,11 @@
   }
 }
 
-.instagram-slider-for--desktop {
+#home-page .instagram-slider-for--desktop {
   display: block;
 }
 
-.instagram-section .slick-prev:before, .slick-next:before {
+#home-page .instagram-section .slick-prev:before, .slick-next:before {
     color: $color-icon;
 
     &:hover {
@@ -153,35 +153,35 @@
     }
   }
 
-.instagram-content {
+#home-page .instagram-content {
   height: auto;
   padding: 75px 0;
 }
 
-.instagram-section .slick-initialized .slick-slide {
+#home-page .instagram-section .slick-initialized .slick-slide {
   display: flex;
 }
 
-.instagram-slider-for__post {
+#home-page .instagram-slider-for__post {
   @include flexbox($align: baseline);
 }
 
-.instagram-slider-for__post img {
+#home-page .instagram-slider-for__post img {
   height: 275px;
   object-fit: contain;
 }
 
-.instagram-section .slick-prev, .instagram-section .slick-next {
+#home-page .instagram-section .slick-prev, .instagram-section .slick-next {
   top: 15%;
   transform: scale(0.80);
 }
 
-.instagram-section .slick-prev:before {
+#home-page .instagram-section .slick-prev:before {
   height: 25px;
   object-fit: contain;
 }
 
-.instagram-section .slick-next:before {
+#home-page .instagram-section .slick-next:before {
   height: 25px;
   object-fit: contain;
 }

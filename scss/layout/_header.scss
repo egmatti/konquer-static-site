@@ -9,7 +9,14 @@ header {
 }
 
 .header--default {
+    background: $color-header;
+    border-bottom: $border-header;
+    height: 125px;
+}
+
+.header--default--home {
     background: none;
+    border-bottom: none;
     height: 125px;
 }
 
@@ -38,6 +45,11 @@ header {
 }
 
 .nav-items--default {
+    color: $black;
+    text-shadow: none;
+}
+
+.nav-items--default--home {
     @include text-shadow();
     color: $white;
 }
@@ -63,6 +75,11 @@ header {
 }
 
 .logo--default {
+    height: 85%;
+    top: 7px;
+}
+
+.logo--default--home {
     height: 85%;
     top: 7px;
 }

@@ -770,7 +770,13 @@ header {
   z-index: 10; }
 
 .header--default {
+  background: #fff;
+  border-bottom: 2px solid rgba(219, 223, 231, 0.5);
+  height: 125px; }
+
+.header--default--home {
   background: none;
+  border-bottom: none;
   height: 125px; }
 
 .header--scrolled {
@@ -796,6 +802,10 @@ header {
   text-transform: uppercase; }
 
 .nav-items--default {
+  color: #222222;
+  text-shadow: none; }
+
+.nav-items--default--home {
   -webkit-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
   -moz-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
   text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
@@ -816,6 +826,10 @@ header {
   transform: translateX(-50%); }
 
 .logo--default {
+  height: 85%;
+  top: 7px; }
+
+.logo--default--home {
   height: 85%;
   top: 7px; }
 
@@ -980,7 +994,7 @@ small {
       -moz-text-shadow: none;
       text-shadow: none; }
 
-.popular-products-section {
+#home-page .popular-products-section {
   margin: 0 auto;
   max-width: 1152px;
   width: 80%;
@@ -989,24 +1003,24 @@ small {
   justify-content: space-between;
   margin-top: 35px; }
 
-.popular-product {
+#home-page .popular-product {
   width: 22%; }
-  .popular-product img {
+  #home-page .popular-product img {
     object-fit: contain;
     width: 100%; }
 
-.product-name {
+#home-page .product-name {
   font-size: 1.125rem;
   margin-top: 15px; }
 
-.product-price {
+#home-page .product-price {
   font-size: 1rem;
   margin-top: 7.5px; }
 
-.about-section {
+#home-page .about-section {
   margin-top: 150px;
   position: relative; }
-  .about-section:before {
+  #home-page .about-section:before {
     content: url("../images/home/about/left-accent.png");
     left: 0;
     position: absolute;
@@ -1014,7 +1028,7 @@ small {
     transform: scale(0.5);
     transform-origin: left center;
     z-index: -10; }
-  .about-section:after {
+  #home-page .about-section:after {
     content: url("../images/home/about/right-accent.png");
     right: 0;
     position: absolute;
@@ -1023,7 +1037,7 @@ small {
     transform-origin: right center;
     z-index: -10; }
 
-.about-section .frame {
+#home-page .about-section .frame {
   margin: 0 auto;
   max-width: 1152px;
   width: 80%;
@@ -1033,21 +1047,21 @@ small {
   flex-direction: column;
   border: 4px solid #DBDFE7;
   padding: 75px 0; }
-  .about-section .frame p {
+  #home-page .about-section .frame p {
     margin-top: 30px;
     text-align: center;
     width: 50%; }
 
-.instagram-section {
+#home-page .instagram-section {
   margin: 0 auto;
   max-width: 1152px;
   width: 80%;
   margin-top: 150px;
   text-align: center; }
 
-.instagram-section h2 {
+#home-page .instagram-section h2 {
   position: relative; }
-  .instagram-section h2:after {
+  #home-page .instagram-section h2:after {
     content: url("../images/home/instagram/chopsticks.svg");
     position: absolute;
     bottom: 0px;
@@ -1056,39 +1070,39 @@ small {
     top: -20px;
     z-index: -5; }
 
-.instagram-slider-for--desktop {
+#home-page .instagram-slider-for--desktop {
   display: block; }
 
-.instagram-section .slick-prev:before, .slick-next:before {
+#home-page .instagram-section .slick-prev:before, .slick-next:before {
   color: #292964; }
-  .instagram-section .slick-prev:before:hover, .slick-next:before:hover {
+  #home-page .instagram-section .slick-prev:before:hover, .slick-next:before:hover {
     color: #04040a; }
 
-.instagram-content {
+#home-page .instagram-content {
   height: auto;
   padding: 75px 0; }
 
-.instagram-section .slick-initialized .slick-slide {
+#home-page .instagram-section .slick-initialized .slick-slide {
   display: flex; }
 
-.instagram-slider-for__post {
+#home-page .instagram-slider-for__post {
   align-items: baseline;
   display: flex;
   justify-content: center; }
 
-.instagram-slider-for__post img {
+#home-page .instagram-slider-for__post img {
   height: 275px;
   object-fit: contain; }
 
-.instagram-section .slick-prev, .instagram-section .slick-next {
+#home-page .instagram-section .slick-prev, .instagram-section .slick-next {
   top: 15%;
   transform: scale(0.8); }
 
-.instagram-section .slick-prev:before {
+#home-page .instagram-section .slick-prev:before {
   height: 25px;
   object-fit: contain; }
 
-.instagram-section .slick-next:before {
+#home-page .instagram-section .slick-next:before {
   height: 25px;
   object-fit: contain; }
 
