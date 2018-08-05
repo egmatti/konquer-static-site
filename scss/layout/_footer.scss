@@ -3,6 +3,7 @@
 // ==========================================
 
 footer {
+    clear: both;
     width: 100%;
 }
 
@@ -10,9 +11,9 @@ footer {
     @include content-width-medium();    
     align-items: start;
     display: grid;
-    grid-column-gap: 50px;
+    grid-column-gap: 43.75px;
     grid-template-columns: 2fr 1fr 1fr;
-    padding: 100px 0px;
+    padding: 66px 0px;
 }
 
 .footer-nav--customer-care, .footer-nav--information, .footer-nav--social-media {
@@ -41,7 +42,7 @@ footer {
         list-style-type: none;
         color: $color-body-text;
         font-size: 1rem;
-        line-height: 45px;
+        line-height: 40px;
         text-decoration: none;
     }
 }
@@ -62,15 +63,15 @@ footer {
 .subfooter {
     @include content-width-medium();
     @include flexbox($justify: space-between);
-    padding: 30px 0;
+    padding: 22px 0;
 }
 
 small {
-  color: rgba($black, 0.75);
+  color: $color-body-text;
   font-size: 0.9rem;
 
     a {
-        color: rgba($black, 0.75);
+        color: $color-body-text;
         font-size: 0.9rem;
         text-decoration: none;
     }

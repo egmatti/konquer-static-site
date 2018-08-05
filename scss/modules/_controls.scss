@@ -4,10 +4,12 @@
 
 .slick-prev:before {
   content: url("../images/home/instagram/left-angle.svg");
+  cursor: pointer;
 }
 
 .slick-next:before {
   content: url("../images/home/instagram/right-angle.svg");
+  cursor: pointer;
 }
 
 .product-sorting {
@@ -20,6 +22,7 @@
     border: $border-product-sorting;
     border-radius: 0px;
     color: $color-body-text;
+    cursor: pointer;
     font-family: $font-stack-secondary;
     font-size: 0.925rem;
     font-weight: $font-weight-regular;
@@ -34,11 +37,13 @@
 
     &:before {
         content: url("../images/shop/left-angle--disabled.svg");
+        cursor: pointer;
         margin-right: 10px;
     }
 
     &:after {
         content: url("../images/shop/right-angle--default.svg");
+        cursor: pointer;
         margin-left: 10px;
     }
 }

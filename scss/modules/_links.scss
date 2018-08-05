@@ -24,8 +24,17 @@
 .breadcrumbs {
     @extend p;
 
+    @include e(previous-page) {
+        cursor: pointer;
+
+        &:hover {
+            color: $color-body-text-hover;
+            text-decoration: underline;
+        }
+    }
+
     @include e(current-page) {
-        color: $black;
+        color: $color-body-text-hover;
         font-weight: $font-weight-demi-bold;
     }
     

@@ -12,19 +12,19 @@ header {
 .header--default {
     background: $color-header;
     border-bottom: $border-header;
-    height: 125px;
+    height: 110px;
 }
 
 .header--default--home {
     background: none;
     border-bottom: none;
-    height: 125px;
+    height: 110px;
 }
 
 .header--scrolled {
     background: $color-header;
     border-bottom: $border-header;
-    height: 75px;
+    height: 72.5px;
 }
 
 .main-nav {

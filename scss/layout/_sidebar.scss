@@ -4,25 +4,26 @@
 
 .sidebar {
     float: left;
-    margin-top: 75px;
+    margin-top: $margin-sidebar;
     width: 20%;
 }
 
 .sidebar-nav {
 
     h4 {
-        line-height: 45px;
+        line-height: $line-height-sidebar-nav;
     }
     
     ul li {
         color: $color-body-text;
         font-size: 1rem;
-        line-height: 45px;
+        line-height: $line-height-sidebar-nav;
         list-style-type: none;
         text-decoration: none;
 
         a:hover {
-            color: $black;
+            color: $color-body-text-hover;
+            cursor: pointer;
             text-decoration: underline;
         }
     }
@@ -33,17 +34,17 @@
 }
 
 .sidebar-nav__current-page {
-    color: $black;
+    color: $color-body-text-hover;
     text-decoration: underline;
 }
 
 .sidebar-nav:not(:first-of-type) {
-    margin-top: 75px;
+    margin-top: $margin-sidebar;
 }
 
 .main-content {
     float: right;
-    margin-bottom: 150px;
-    margin-top: 75px;
-    width: 70%;
+    margin-bottom: $margin-footer;
+    margin-top: $margin-sidebar;
+    width: 75%;
 }

@@ -19,13 +19,14 @@ $melon: #C26098;
 
 // Color Functions
 $color-body: $white;
-$color-border: $light-blue-gray;
+$color-border: rgba($light-blue-gray, 0.5);
 
 $color-box-shadow: rgba($black, 0.5);
 $color-text-shadow: rgba($black, 0.5);
 
 $color-headline: $black;
 $color-body-text: rgba($black, 0.75);
+$color-body-text-hover: $black;
 $color-selection: $celadon;
 
 $color-icon: $midnight;
@@ -39,9 +40,7 @@ $color-form: rgba($midnight, 0.3);
 $color-product-sorting: rgba($black, 0.75);
 
 $color-header: $white;
-$color-header-border: rgba($color-border, 0.5);
 $color-footer: $white;
-$color-footer-border: $light-blue-gray;
 
 $color-product-name: $black;
 $color-product-name-hover: $indigo;
@@ -64,40 +63,46 @@ $font-weight-bold: 700;
 $font-weight-extra-bold: 900;
 
 // Font Sizes
-$base-font-size: 16px;
+$base-font-size: 14px;
 
 // Line Height
 $line-height-body-text: 2rem;
 
+$line-height-footer-nav: 2.85rem;
+$line-height-sidebar-nav: 2.85rem;
+
 
 // BORDERS
 
-$border-size: 3px;
+$border-size: 2px;
 $border-size-button: 3px;
 $border-size-form: 3px;
 $border-size-product-sorting: 0.75px;
 $border-size-header: 2px;
-$border-size-footer: 4px;
-$border-size-frame: 4px;
+$border-size-footer: 3px;
+$border-size-frame: 3px;
 
 $border-divider: $border-size solid $color-border;
 $border-button: $border-size-button solid $color-button;
 $border-button-hover: $border-size-button solid $color-button-hover;
 $border-form: $border-size-form solid $color-form;
 $border-product-sorting: $border-size-product-sorting solid $color-product-sorting;
-$border-header: $border-size-header solid $color-header-border;
-$border-footer: $border-size-footer solid $color-footer-border;
+$border-header: $border-size-header solid $color-border;
+$border-footer: $border-size-footer solid $color-border;
 $border-frame: $border-size-frame solid $color-border;
 
 
 // MARGINS AND PADDING
 
+$margin-footer: 130px;
+$margin-sidebar: 43.75px;
+
 
 // HEIGHTS AND WIDTHS
-$content-width-large: 90%;
-$content-max-width-large: 1296px;
-$content-width-medium: 80%;
-$content-max-width-medium: 1152px;
+$content-width-large: 85%;
+$content-max-width-large: 1224px;
+$content-width-medium: 70%;
+$content-max-width-medium: 1008px;
 
 
 // PATHS
