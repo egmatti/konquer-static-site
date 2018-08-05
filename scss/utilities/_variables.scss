@@ -41,6 +41,7 @@ $color-product-sorting: rgba($black, 0.75);
 $color-header: $white;
 $color-header-border: rgba($color-border, 0.5);
 $color-footer: $white;
+$color-footer-border: $light-blue-gray;
 
 $color-product-name: $black;
 $color-product-name-hover: $indigo;
@@ -76,6 +77,7 @@ $border-size-button: 3px;
 $border-size-form: 3px;
 $border-size-product-sorting: 0.75px;
 $border-size-header: 2px;
+$border-size-footer: 4px;
 $border-size-frame: 4px;
 
 $border-divider: $border-size solid $color-border;
@@ -84,6 +86,7 @@ $border-button-hover: $border-size-button solid $color-button-hover;
 $border-form: $border-size-form solid $color-form;
 $border-product-sorting: $border-size-product-sorting solid $color-product-sorting;
 $border-header: $border-size-header solid $color-header-border;
+$border-footer: $border-size-footer solid $color-footer-border;
 $border-frame: $border-size-frame solid $color-border;
 
 
