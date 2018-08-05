@@ -18,7 +18,7 @@
 
 #home-page .hero-text {
   @include content-width-medium;
-  margin-top: 60px;
+  margin-top: 55px;
 
   h1 {
     color: $white;
@@ -27,7 +27,7 @@
   p {
     color: $white;
     font-size: 1.2rem;
-    margin-top: 30px;
+    margin-top: 25px;
     width: 425px;
   }
 
@@ -36,7 +36,7 @@
     @include text-shadow();
     border: $border-size-button solid $white;
     color: $white;
-    margin-top: 30px;
+    margin-top: 25px;
 
     &:hover {
 
@@ -53,9 +53,9 @@
 // POPULAR PRODUCTS
 
 #home-page .popular-products-section {
-  @include content-width-medium();
+  @include content-width-large();
   @include flexbox($justify: space-between);
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 #home-page .popular-product {
@@ -81,7 +81,7 @@
 // ABOUT
 
 #home-page .about-section {
-  margin-top: 150px;
+  margin-top: $margin-section;
   position: relative;
 
   &:before {
@@ -123,7 +123,7 @@
 
 #home-page .instagram-section {
   @include content-width-medium();
-  margin-top: 150px;
+  margin-top: $margin-section;
   text-align: center;
 }
 
