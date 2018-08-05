@@ -908,9 +908,10 @@ footer {
   -webkit-margin-before: 0;
   -webkit-padding-start: 0; }
   .footer-nav--customer-care h4, .footer-nav--information h4, .footer-nav--social-media h4 {
+    cursor: pointer;
     margin-bottom: 15px; }
 
-.customer-care-columns {
+footer .customer-care-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%; }
@@ -921,22 +922,33 @@ footer {
   -webkit-padding-start: 0; }
   .footer-nav--customer-care ul li, .footer-nav--information ul li {
     align-self: start;
-    list-style-type: none;
-    color: rgba(34, 34, 34, 0.75);
-    font-size: 1rem;
-    line-height: 40px;
-    text-decoration: none; }
+    list-style-type: none; }
+    .footer-nav--customer-care ul li a, .footer-nav--information ul li a {
+      color: rgba(34, 34, 34, 0.75);
+      cursor: pointer;
+      font-size: 1rem;
+      text-decoration: none;
+      line-height: 2.85rem; }
+      .footer-nav--customer-care ul li a:hover, .footer-nav--information ul li a:hover {
+        color: #222222;
+        text-decoration: underline; }
 
 .footer-nav--social-media h4 {
-  margin-bottom: 30px; }
+  cursor: auto;
+  margin-bottom: 20px; }
 
 .footer-nav--social-media ul {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 175px; }
+  width: 150px; }
   .footer-nav--social-media ul li {
     list-style-type: none; }
+    .footer-nav--social-media ul li a {
+      cursor: pointer; }
+
+footer .social-icon {
+  transform: scale(0.875); }
 
 .subfooter {
   margin: 0 auto;
@@ -947,13 +959,20 @@ footer {
   justify-content: space-between;
   padding: 22px 0; }
 
-small {
+footer small {
   color: rgba(34, 34, 34, 0.75);
   font-size: 0.9rem; }
-  small a {
+  footer small a {
     color: rgba(34, 34, 34, 0.75);
     font-size: 0.9rem;
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 0 5px; }
+    footer small a:last-of-type {
+      padding-right: none; }
+    footer small a:hover {
+      color: #222222;
+      cursor: pointer;
+      text-decoration: underline; }
 
 .sidebar {
   float: left;
