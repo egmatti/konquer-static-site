@@ -1,0 +1,46 @@
+// ==========================================
+// SINGLE PRODUCT PAGE
+// ==========================================
+
+#single-product-page .content {
+    @include content-width-large();
+    margin-top: 150px;
+}
+
+#single-product-page .alternate-product-images {
+    @include flexbox($direction: column);
+    float: left;
+    margin-right: 2%;
+    margin-top: 40px;
+    width: 10%;
+
+    img {
+        cursor: pointer;
+        margin-bottom: 15px;
+        object-fit: contain;
+        width: 100%;
+    }
+}
+
+#single-product-page .main-product-image {
+    margin-top: 40px;
+    object-fit: contain;
+    width: 45%;
+}
+
+#single-product-page .product-information {
+    float: right;
+    margin-top: 40px;
+    text-align: left;
+    width: 37.5%;
+}
+
+#single-product-page .product-name {
+    @extend h3;
+    cursor: auto;
+    text-align: left;
+}
+
+#single-product-page .product-price {
+    text-align: left;
+}

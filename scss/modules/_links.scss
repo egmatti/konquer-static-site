@@ -23,6 +23,7 @@
 
 .breadcrumbs {
     @extend p;
+    display: block;
 
     @include e(previous-page) {
         cursor: pointer;

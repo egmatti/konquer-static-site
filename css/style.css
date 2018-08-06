@@ -436,6 +436,14 @@ h2 {
   letter-spacing: -0.2px;
   margin: 0; }
 
+h3, #single-product-page .product-name {
+  color: #222222;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.128px;
+  margin: 0; }
+
 h4 {
   color: #222222;
   font-family: "Avenir Next", Helvetica, sans-serif;
@@ -724,14 +732,16 @@ button, .submit-button {
     content: url("../images/arrow.svg");
     padding-left: 10px; }
 
-.breadcrumbs__previous-page {
-  cursor: pointer; }
-  .breadcrumbs__previous-page:hover {
+.breadcrumbs {
+  display: block; }
+  .breadcrumbs__previous-page {
+    cursor: pointer; }
+    .breadcrumbs__previous-page:hover {
+      color: #222222;
+      text-decoration: underline; }
+  .breadcrumbs__current-page {
     color: #222222;
-    text-decoration: underline; }
-.breadcrumbs__current-page {
-  color: #222222;
-  font-weight: 600; }
+    font-weight: 600; }
 
 input {
   border: 3px solid rgba(41, 41, 100, 0.3);
@@ -1252,5 +1262,44 @@ footer small {
 
 #shop-page footer {
   border-top: 3px solid rgba(219, 223, 231, 0.5); }
+
+#single-product-page .content {
+  margin: 0 auto;
+  max-width: 1224px;
+  width: 85%;
+  margin-top: 150px; }
+
+#single-product-page .alternate-product-images {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  float: left;
+  margin-right: 2%;
+  margin-top: 40px;
+  width: 10%; }
+  #single-product-page .alternate-product-images img {
+    cursor: pointer;
+    margin-bottom: 15px;
+    object-fit: contain;
+    width: 100%; }
+
+#single-product-page .main-product-image {
+  margin-top: 40px;
+  object-fit: contain;
+  width: 45%; }
+
+#single-product-page .product-information {
+  float: right;
+  margin-top: 40px;
+  text-align: left;
+  width: 37.5%; }
+
+#single-product-page .product-name {
+  cursor: auto;
+  text-align: left; }
+
+#single-product-page .product-price {
+  text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

@@ -38,6 +38,15 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  color: $color-headline;
+  font-family: $font-stack-primary;
+  font-size: 1.8rem;
+  font-weight: $font-weight-bold;
+  letter-spacing: -0.128px;
+  margin: 0;
+}
+
 h4 {
   color: $color-headline;
   font-family: $font-stack-secondary;
