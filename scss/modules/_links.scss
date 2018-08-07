@@ -2,8 +2,9 @@
 // LINKS
 // ==========================================
 
-.text-link {
-    color: $color-text-link;
+.arrow-link {
+    color: $color-arrow-link;
+    cursor: pointer;
     float: right;
     font-family: $font-stack-secondary;
     font-weight: 600;
@@ -37,6 +38,17 @@
     @include e(current-page) {
         color: $color-body-text-hover;
         font-weight: $font-weight-demi-bold;
+    }   
+}
+
+.helper-link {
+    @extend p;
+    color: $color-helper-link;
+    cursor: pointer;
+    font-size: 0.925rem;
+    text-decoration: underline;
+
+    &:hover {
+        color: $color-helper-link-hover;
     }
-    
 }
