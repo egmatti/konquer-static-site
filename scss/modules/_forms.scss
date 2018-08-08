@@ -26,3 +26,21 @@ input {
         color: rgba($black, 0.5);
     }
 }
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: $white;
+    background-position: 93% 45%;
+    background-repeat: no-repeat;
+    background-image: url(../images/shop/carets.svg); 
+    border: $border-dropdown;
+    border-radius: 0px;
+    color: $color-body-text;
+    cursor: pointer;
+    font-family: $font-stack-secondary;
+    font-size: 0.925rem;
+    font-weight: $font-weight-regular;
+    padding: .5em;
+    padding-right: 2em
+}

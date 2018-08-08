@@ -58,7 +58,14 @@ SINGLE PRODUCT PAGE
                 <img src="images/single-product/alternate-images/alternate-image-2.png" alt="Hokori Long Sleve Rashguard">
                 <img src="images/single-product/alternate-images/alternate-image-3.png" alt="Hokori Long Sleve Rashguard">
             </div>
-            <img class="main-product-image" src="images/single-product/main-image.png" alt="Hokori Long Sleeve Rashguard">
+            <div class="main-product-image-container">
+                <img class="main-product-image" src="images/single-product/main-image.png" alt="Hokori Long Sleeve Rashguard">
+                <ul class="social-media">
+                    <li><a><img class="social-icon" src="images/footer/facebook.svg" alt="Facebook"></a></li>
+                    <li><a><img class="social-icon" src="images/footer/twitter.svg" alt="Twitter"></a></li>
+                    <li><a><img class="social-icon" src="images/footer/instagram.svg" alt="Instagram"></a></li>
+                </ul>
+            </div>
             <div class="product-information">
                 <h3 class="product-name">Hokori Long Sleeve Rashguard</h3>
                 <span class="product-price">$28.99</span>
@@ -75,9 +82,58 @@ SINGLE PRODUCT PAGE
                     </fieldset>
                     <a class="helper-link">Size Guide</a>
                 </div>
-
+                <div class="product-quantity">
+                    <label class="single-product-page-label">QTY</label>
+                    <select name="product-quantity">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <button class="cta">Add to Bag</button>
+                <div class="product-estimated-delivery">
+                    <span class="helper-text">Estimated Delivery: July 5–6</span>
+                </div>
+                <div class="divider"></div>
+                <div class="product-description">
+                    <p>Style No.: 817925428305</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <ul>
+                        <li>Dry fit</li>
+                        <li>Imported</li>
+                        <li>Screen printed</li>
+                    </ul>
                 </div>
             </div>
+            <section class="similar-products-section">
+                <h4>You May Also Like</h4>
+                <div class="divider"></div>
+                <div class="similar-products">
+                    <div class="similar-product">
+                        <img id="similar-product-1" class="product-image" src="images/similar-products/product-1/main-image.png" alt="Large Gear Bag">
+                        <span class="product-name">Large Gear Bag</span>
+                        <span class="product-price">$38.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-2" class="product-image" src="images/similar-products/product-2/main-image.png" alt="Jitsuka Hoodie">
+                        <span class="product-name">Jitsuka Hoodie</span>
+                        <span class="product-price">$25.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-3" class="product-image" src="images/similar-products/product-3/main-image.png" alt="Prism Spats">
+                        <span class="product-name">Prism Spats</span>
+                        <span class="product-price">$40.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-4" class="product-image" src="images/similar-products/product-4/main-image.png" alt="Black Rashguard">
+                        <span class="product-name">Black Rashguard</span>
+                        <span class="product-price">$22.00</span>
+                    </div>
+                </div>
+                <button>View More</button>
+            </section>
             
                 
         </section>
@@ -115,7 +171,7 @@ SINGLE PRODUCT PAGE
         
                 <div class="footer-nav--social-media">
                     <h4>Connect</h4>
-                    <ul>
+                    <ul class="social-media">
                         <li><a><img class="social-icon" src="images/footer/facebook.svg" alt="Facebook"></a></li>
                         <li><a><img class="social-icon" src="images/footer/twitter.svg" alt="Twitter"></a></li>
                         <li><a><img class="social-icon" src="images/footer/instagram.svg" alt="Instagram"></a></li>
@@ -140,6 +196,6 @@ SINGLE PRODUCT PAGE
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <script type="text/javascript" src="js/slick.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/shop.js"></script>
+        <script type="text/javascript" src="js/single-product.js"></script>
     </body>
 </html>

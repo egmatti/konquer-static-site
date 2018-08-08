@@ -1,0 +1,49 @@
+// ==========================================
+// SIMILAR PRODUCTS
+// ==========================================
+
+.similar-products-section {
+    clear: both;
+    margin: $margin-section auto;
+    width: 90%;
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.similar-products-section .divider {
+    margin: 17.5px 0 35px 0;
+}
+
+.similar-products-section .similar-products {
+    @include flexbox($justify: space-between);
+}
+
+.similar-products-section .similar-product {
+    width: 22%;
+
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+.similar-products-section .product-name {
+  font-size: 1.125rem;
+  margin-top: 15px;
+}
+
+.similar-products-section .product-price {
+  font-size: 1rem;
+  margin-top: 7.5px;
+}
+
+.similar-products-section button {
+    left: 50%;
+    margin-top: 65px;
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}

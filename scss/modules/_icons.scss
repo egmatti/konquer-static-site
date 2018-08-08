@@ -2,3 +2,19 @@
 // ICONS
 // ==========================================
 
+.social-icon {
+    transform: scale(0.875);
+}
+
+.social-media {
+    @include flexbox($justify: space-between);
+    width: 150px;
+
+    li {
+        list-style-type: none;
+
+        a {
+            cursor:pointer;
+        }
+    }
+}

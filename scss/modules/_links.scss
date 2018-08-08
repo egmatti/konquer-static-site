@@ -52,3 +52,9 @@
         color: $color-helper-link-hover;
     }
 }
+
+.helper-text {
+    @extend p;
+    color: $color-helper-text;
+    font-size: 0.925rem;
+}

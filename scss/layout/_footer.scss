@@ -62,23 +62,6 @@ footer .customer-care-columns {
     margin-bottom: 20px;
 }
 
-.footer-nav--social-media ul {
-    @include flexbox($justify: space-between);
-    width: 150px;
-
-    li {
-        list-style-type: none;
-
-        a {
-            cursor:pointer;
-        }
-    }
-}
-
-footer .social-icon {
-    transform: scale(0.875);
-}
-
 .subfooter {
     @include content-width-medium();
     @include flexbox($justify: space-between);
