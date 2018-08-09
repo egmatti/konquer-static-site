@@ -4,9 +4,14 @@
 
 .email-sign-up-section {
   background: rgba($periwinkle, 0.2);
-  height: 315px;
-  margin-top: 150px;
+  height: 275px;
+  margin-top: $margin-section;
   width: 100%;
+
+  @include m(small) {
+    @extend .email-sign-up-section;
+    height: 215px;
+  }
 }
 
 .email-sign-up-content {
@@ -30,15 +35,19 @@
       top: 5px;
     }
   }
+}
 
-  p {
-    margin-top: 30px;
-  }
+.email-sign-up-section p {
+    margin-top: 25px;
+}
+
+.email-sign-up-section--small p {
+    margin-top: 12.25px;
 }
 
 .email-sign-up-input {
   font-size: 1.1rem;
-  height: 40px;
+  height: 35px;
   margin-right: -2.5px;
   width: 435px;
 }

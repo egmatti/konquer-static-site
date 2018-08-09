@@ -1039,11 +1039,13 @@ footer small {
   margin-top: 40px;
   width: 75%; }
 
-.email-sign-up-section {
+.email-sign-up-section, .email-sign-up-section--small {
   background: rgba(167, 173, 198, 0.2);
-  height: 315px;
-  margin-top: 150px;
+  height: 275px;
+  margin-top: 130px;
   width: 100%; }
+  .email-sign-up-section--small {
+    height: 215px; }
 
 .email-sign-up-content {
   margin: 0 auto;
@@ -1065,12 +1067,16 @@ footer small {
       left: 335px;
       right: 0px;
       top: 5px; }
-  .email-sign-up-text p, .email-sign-up-text .breadcrumbs, .email-sign-up-text .helper-link, .email-sign-up-text .helper-text, .email-sign-up-text #single-product-page .product-color, #single-product-page .email-sign-up-text .product-color, .email-sign-up-text #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-text li {
-    margin-top: 30px; }
+
+.email-sign-up-section p, .email-sign-up-section--small p, .email-sign-up-section .breadcrumbs, .email-sign-up-section--small .breadcrumbs, .email-sign-up-section .helper-link, .email-sign-up-section--small .helper-link, .email-sign-up-section .helper-text, .email-sign-up-section--small .helper-text, .email-sign-up-section #single-product-page .product-color, #single-product-page .email-sign-up-section .product-color, .email-sign-up-section--small #single-product-page .product-color, #single-product-page .email-sign-up-section--small .product-color, .email-sign-up-section #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section li, .email-sign-up-section--small #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section--small li {
+  margin-top: 25px; }
+
+.email-sign-up-section--small p, .email-sign-up-section--small .breadcrumbs, .email-sign-up-section--small .helper-link, .email-sign-up-section--small .helper-text, .email-sign-up-section--small #single-product-page .product-color, #single-product-page .email-sign-up-section--small .product-color, .email-sign-up-section--small #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section--small li {
+  margin-top: 12.25px; }
 
 .email-sign-up-input {
   font-size: 1.1rem;
-  height: 40px;
+  height: 35px;
   margin-right: -2.5px;
   width: 435px; }
 
@@ -1442,8 +1448,5 @@ footer small {
   font-size: 1rem;
   margin-top: 7.5px;
   text-align: center; }
-
-#single-product-page footer {
-  border-top: 3px solid rgba(219, 223, 231, 0.5); }
 
 /*# sourceMappingURL=style.css.map */
