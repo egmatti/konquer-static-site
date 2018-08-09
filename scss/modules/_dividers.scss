@@ -6,3 +6,9 @@
     border-top: $border-divider;
     width: 100%;
 }
+
+.divider--vertical {
+    border-right: $border-divider;
+    height: 575px;
+    width: 1px;
+}
