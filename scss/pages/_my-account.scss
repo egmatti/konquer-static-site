@@ -1,0 +1,31 @@
+// ==========================================
+// MY ACCOUNT PAGE
+// ==========================================
+
+#my-account-page .content {
+    @include content-width-large();
+    margin-top: 150px;
+}
+
+#my-account-page .content form {
+    margin-top: 40px;
+    width: 525px;
+}
+
+#my-account-page .content label {
+    margin-top: 35px;
+}
+
+#my-account-page .content input {
+    width: 100%;
+}
+
+#my-account-page .content .save-button {
+    display: block;
+    margin-top: 40px;
+    width: 200px;
+}
+
+#my-account-page .content .divider {
+    margin: 40px auto;
+}

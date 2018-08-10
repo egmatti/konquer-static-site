@@ -56,13 +56,6 @@
     text-align: left;
 }
 
-#single-product-page .single-product-page-label {
-    color: $color-label;
-    font-weight: $font-weight-demi-bold;
-    letter-spacing: 1.45px;
-    text-transform: uppercase;
-}
-
 #single-product-page .product-color {
     @extend p;
     display: block;

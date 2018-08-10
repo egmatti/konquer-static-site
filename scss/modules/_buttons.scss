@@ -20,13 +20,6 @@ button {
     }
 }
 
-.submit-button {
-  @extend button;
-  background: $color-button;
-  border: none;
-  color: $white;
-}
-
 .cta {
     background: $color-button;
     border: none;
@@ -38,3 +31,30 @@ button {
         background: $color-button-hover;
     }
 }
+
+.save-button {
+  @extend button;
+  background: $color-button;
+  border: none;
+  color: $white;
+  height: 50px;
+  width: 200px;
+
+  &:hover {
+        background: $color-button-hover;
+    }
+}
+
+.submit-button {
+  @extend button;
+  background: $color-button;
+  border: none;
+  color: $white;
+
+  &:hover {
+        background: $color-button-hover;
+    }
+}
+
+
+
