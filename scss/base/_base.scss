@@ -57,6 +57,15 @@ h4 {
   text-transform: uppercase;
 }
 
+h6 {
+  color: $color-headline;
+  font-family: $font-stack-secondary;
+  font-size: 1.1rem;
+  font-weight: $font-weight-demi-bold;
+  line-height: 28px;
+  margin: 0;
+}
+
 
 // BODY TEXT
 

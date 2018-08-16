@@ -1,0 +1,33 @@
+.order-total {
+    float: right;
+    margin-top: 38.5px;
+    width: 33%;
+
+    div {
+        @include flexbox($justify: space-between);
+        margin-bottom: 10px;
+    }
+}
+
+.order-total .tax {
+    margin-bottom: 0;
+}
+
+.order-total .divider {
+    margin: 15px 0;
+}
+
+.order-total .total {
+    margin-bottom: 43px;
+
+    h6 {
+        letter-spacing: 1.464px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+.order-total .cta {
+    width: 100%;
+}

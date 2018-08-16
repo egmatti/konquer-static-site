@@ -453,6 +453,14 @@ h4 {
   margin: 0;
   text-transform: uppercase; }
 
+h6 {
+  color: #222222;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0; }
+
 p, .breadcrumbs, .helper-link, .helper-text, #single-product-page .product-color, #single-product-page .product-description ul li, #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-in-section .email-opt-in-question, #shopping-bag-page table tr td {
   color: rgba(34, 34, 34, 0.75);
   line-height: 2rem; }
@@ -1144,6 +1152,31 @@ footer small {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
 
+.order-total {
+  float: right;
+  margin-top: 38.5px;
+  width: 33%; }
+  .order-total div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+
+.order-total .tax {
+  margin-bottom: 0; }
+
+.order-total .divider {
+  margin: 15px 0; }
+
+.order-total .total {
+  margin-bottom: 43px; }
+  .order-total .total h6 {
+    letter-spacing: 1.464px;
+    text-transform: uppercase; }
+
+.order-total .cta, .order-total .cta--small {
+  width: 100%; }
+
 #home-page .hero-section {
   background: url("../images/home/hero.png");
   background-repeat: no-repeat;
@@ -1600,8 +1633,8 @@ footer small {
       text-transform: uppercase; }
     #shopping-bag-page table tr td {
       font-size: 1.1rem;
-      height: 175px;
-      padding: 21.875px 0;
+      height: 150px;
+      padding: 17.5px 0;
       text-align: left;
       vertical-align: top; }
       #shopping-bag-page table tr td img {
@@ -1620,5 +1653,22 @@ footer small {
   #shopping-bag-page table .helper-link:first-of-type {
     line-height: 0;
     padding-bottom: 7.5px; }
+
+#shopping-bag-page .summary-section {
+  width: 100%; }
+  #shopping-bag-page .summary-section:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+
+#shopping-bag-page .help-information {
+  float: left;
+  margin-top: 38.5px; }
+  #shopping-bag-page .help-information h6 {
+    font-size: 1rem; }
+  #shopping-bag-page .help-information .helper-text, #shopping-bag-page .help-information .helper-link {
+    font-size: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
