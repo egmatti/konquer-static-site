@@ -21,27 +21,23 @@ button {
 }
 
 .cta {
+    @extend button;
     background: $color-button;
     border: none;
     color: $white;
-    width: 300px;
     height: 50px;
+    width: 300px;
+    
 
     &:hover {
         background: $color-button-hover;
     }
-}
 
-.save-button {
-  @extend button;
-  background: $color-button;
-  border: none;
-  color: $white;
-  height: 50px;
-  width: 200px;
-
-  &:hover {
-        background: $color-button-hover;
+    @include m(small) {
+        @extend .cta;
+        font-size: 0.9rem;
+        height: 37.5px;
+        width: 200px;
     }
 }
 

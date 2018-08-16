@@ -1,0 +1,73 @@
+// ==========================================
+// SHOPPING BAG PAGE
+// ==========================================
+
+#shopping-bag-page .content {
+    @include content-width-large();
+    margin-top: 150px;
+}
+
+#shopping-bag-page h3 {
+    display: inline-block;
+}
+
+#shopping-bag-page .checkout-button--top {
+    float: right;
+}
+
+#shopping-bag-page table {
+    border-collapse: collapse;
+    clear: both;
+    margin-top: 66px;
+    width: 100%;
+
+    tr {
+        border-bottom: $border-table;
+
+        th {
+            color: $black;
+            height: 15px;
+            font-family: $color-table-header;
+            font-size: 0.925rem;
+            font-weight: $font-weight-demi-bold;
+            letter-spacing: 1.25px;
+            padding-bottom: 17.5px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        td {
+            @extend p;
+            font-size: 1.1rem;
+            height: 175px;
+            padding: 21.875px 0;
+            text-align: left;
+            vertical-align: top;
+
+            img {
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+#shopping-bag-page table .product-name {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+#shopping-bag-page table .product-style-number {
+    font-size: 0.925rem;
+}
+
+#shopping-bag-page table .helper-link {
+    display: block;
+    
+    &:first-of-type {
+        line-height: 0;
+        padding-bottom: 7.5px;
+    }
+}
+
+

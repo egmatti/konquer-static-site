@@ -1,5 +1,5 @@
 <!-- ==========================================
-MY ACCOUNT PAGE
+SHOPPING BAG PAGE
 ========================================== -->
 
 
@@ -9,7 +9,7 @@ MY ACCOUNT PAGE
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Account Settings | Konquer Jiu Jitsu</title>
+        <title>Shopping Bag | Konquer Jiu Jitsu</title>
         <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
             crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
@@ -27,7 +27,7 @@ MY ACCOUNT PAGE
 
     </head>
 
-    <body id="my-account-page">
+    <body id="shopping-bag-page">
 
 
 <!-- HEADER -->
@@ -53,49 +53,88 @@ MY ACCOUNT PAGE
 <!-- CONTENT -->
 
         <section class="content">
-            <h3>My Account</h3>
-            <div class="sidebar">
-                <div class="my-account-nav sidebar-nav">
-                    <ul>
-                        <li><a class="sidebar-nav__current-page">Account Settings</a></li>
-                        <li><a>Email Preferences</a></li>
-                        <li><a>Billing Information</a></li>
-                        <li><a>Shipping Information</a></li>
-                        <li><a>Order History</a></li>
-                    </ul>
-                </div>
-            </div>
+            <h3>Shopping Bag (2)</h3>
+            <button class="cta--small checkout-button--top">Go to Checkout</button>
+            <table>
+                <colgroup>
+                    <col style="width: 15%;">
+                    <col style="width: 23%;">
+                    <col style="width: 14%;">
+                    <col style="width: 12%;">
+                    <col style="width: 12%;">
+                    <col style="width: 16%;">
+                    <col style="width: 8%;">
+                </colgroup>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Color</th>
+                    <th>Size</th>
+                    <th>QTY</th>
+                    <th>Actions</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td><img src="images/checkout/product-image-1.png" alt="Prism Rashguard"></td>
+                    <td>
+                        <span class="product-name">Prism Rashguard</span>
+                        <span class="product-style-number">Style No.: 817925428305</span>
+                    </td>
+                    <td>Multi-Color</td>
+                    <td>M</td>
+                    <td>1</td>
+                    <td>
+                        <a class="helper-link">Edit</a>
+                        <a class="helper-link">Remove</a>
+                    </td>
+                    <td>$39.99</td>
+                </tr>
+                <tr>
+                    <td><img src="images/checkout/product-image-2.png" alt="Large Gear Bag"></td>
+                    <td>
+                        <span class="product-name">Large Gear Bag</span>
+                        <span class="product-style-number">Style No.: 817925428305</span>
+                    </td>
+                    <td>Black</td>
+                    <td>N/A</td>
+                    <td>1</td>
+                    <td>
+                        <a class="helper-link">Edit</a>
+                        <a class="helper-link">Remove</a>
+                    </td>
+                    <td>$38.00</td>
+                </tr>
+            </table>
 
-            <div class="main-content">
-                <h4>Account Settings</h4>
-                <form class="name-form">
-                        <div><span class="colon">Name:</span> Emily Mattison</div>
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last-name">
-                        <input class="cta--small" type="submit" value="Save Changes">
-                </form>
+
+             <section class="similar-products-section">
+                <h4>You May Also Like</h4>
                 <div class="divider"></div>
-                <form class="email-form">
-                        <div><span class="colon">Email:</span> egmatti@gmail.com</div>
-                         <span class="helper-text">Not egmatti@gmail.com?   </span><a class="helper-link">Sign Out.</a>
-                        <label for="email">New Email</label>
-                        <input type="text" name="email">
-                        <label for="confirm-email">Confirm Email</label>
-                        <input type="text" name="confirm-email">
-                        <input class="cta--small" type="submit" value="Save Changes">
-                </form>
-                <div class="divider"></div>
-                <form class="password-form">
-                        <div><span class="colon">Password</span></div>
-                        <label for="password">New Password</label>
-                        <input type="text" name="password">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="text" name="confirm-password">
-                        <input class="cta--small" type="submit" value="Save Changes">
-                </form>
-            </div>
+                <div class="similar-products">
+                    <div class="similar-product">
+                        <img id="similar-product-1" class="product-image" src="images/similar-products/product-1/main-image.png" alt="Large Gear Bag">
+                        <span class="product-name">Large Gear Bag</span>
+                        <span class="product-price">$38.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-2" class="product-image" src="images/similar-products/product-2/main-image.png" alt="Jitsuka Hoodie">
+                        <span class="product-name">Jitsuka Hoodie</span>
+                        <span class="product-price">$25.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-3" class="product-image" src="images/similar-products/product-3/main-image.png" alt="Prism Spats">
+                        <span class="product-name">Prism Spats</span>
+                        <span class="product-price">$40.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-4" class="product-image" src="images/similar-products/product-4/main-image.png" alt="Black Rashguard">
+                        <span class="product-name">Black Rashguard</span>
+                        <span class="product-price">$22.00</span>
+                    </div>
+                </div>
+                <button>View More</button>
+            </section> 
+            
         </section>
 
 
@@ -172,6 +211,6 @@ MY ACCOUNT PAGE
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <script type="text/javascript" src="js/slick.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/my-account.js"></script>
+        <script type="text/javascript" src="js/shopping-bag.js"></script>
     </body>
 </html>
