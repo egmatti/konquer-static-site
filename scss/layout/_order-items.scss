@@ -1,0 +1,30 @@
+// ==========================================
+// ORDER ITEMS
+// ==========================================
+
+.order-items {
+    border: $border-divider;
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 21.875px;
+    width: 100%;
+}
+
+.order-items .divider {
+    margin: 21.875px 0;
+}
+
+.order-items table td {
+    vertical-align: top;
+}
+
+.order-items table img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.order-items table div {
+    display: block;
+    margin-left: 21.875px;
+    text-align: left;
+}

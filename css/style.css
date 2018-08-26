@@ -1161,15 +1161,11 @@ footer small {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
 
-.order-total {
-  float: right;
-  margin-top: 38.5px;
-  width: 33%; }
-  .order-total div {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px; }
+.order-total div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; }
 
 .order-total .tax {
   margin-bottom: 0; }
@@ -1177,14 +1173,34 @@ footer small {
 .order-total .divider {
   margin: 15px 0; }
 
-.order-total .total {
-  margin-bottom: 43px; }
-  .order-total .total h6 {
-    letter-spacing: 1.464px;
-    text-transform: uppercase; }
+.order-total .total h6 {
+  letter-spacing: 1.464px;
+  text-transform: uppercase; }
 
 .order-total .cta, .order-total .cta--small {
   width: 100%; }
+
+.order-items {
+  border: 2px solid rgba(219, 223, 231, 0.5);
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding: 21.875px;
+  width: 100%; }
+
+.order-items .divider {
+  margin: 21.875px 0; }
+
+.order-items table td {
+  vertical-align: top; }
+
+.order-items table img {
+  object-fit: contain;
+  width: 100%; }
+
+.order-items table div {
+  display: block;
+  margin-left: 21.875px;
+  text-align: left; }
 
 #home-page .hero-section {
   background: url("../images/home/hero.png");
@@ -1522,7 +1538,7 @@ footer small {
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
-  margin: 43px auto 0 auto;
+  margin: 40px auto 0 auto;
   width: 90%; }
 
 #sign-in-page .sign-in-side, #sign-in-page .sign-up-side {
@@ -1584,7 +1600,7 @@ footer small {
   width: 92.5%; }
 
 #sign-in-page .sign-in-section .submit-button {
-  margin-top: 43px;
+  margin-top: 40px;
   width: 100%; }
 
 #my-account-page .content {
@@ -1680,19 +1696,31 @@ footer small {
   #shopping-bag-page .help-information .helper-text, #shopping-bag-page .help-information .helper-link {
     font-size: 1rem; }
 
+#shopping-bag-page .order-total {
+  float: right;
+  margin-top: 38.5px;
+  width: 33%; }
+
+#shopping-bag-page .order-total .total {
+  margin-bottom: 40px; }
+
+#checkout-shipping-page header {
+  position: relative; }
+
 #checkout-shipping-page .content {
   margin: 0 auto;
   max-width: 1224px;
   width: 85%;
-  margin-top: 150px; }
+  margin-top: 40px; }
 
 #checkout-shipping-page .step-name {
-  display: inline-block;
   margin-top: 15px; }
 
 #checkout-shipping-page .checkout-form {
+  float: left;
+  margin-bottom: 130px;
   margin-top: 66px;
-  width: 42%; }
+  width: 42.5%; }
 
 #checkout-shipping-page .checkout-form label {
   margin-top: 35px; }
@@ -1703,7 +1731,7 @@ footer small {
 #checkout-shipping-page .checkout-form .email-opt-in-question {
   display: block;
   font-size: 0.925rem;
-  margin-top: 43px; }
+  margin-top: 40px; }
 
 #checkout-shipping-page .checkout-form .email-opt-in {
   -webkit-appearance: none;
@@ -1739,14 +1767,22 @@ footer small {
   width: 92.5%; }
 
 #checkout-shipping-page .checkout-form .submit-button {
-  margin-top: 43px;
+  margin-top: 40px;
   width: 100%; }
 
 #checkout-shipping-page .checkout-form .help-information {
   margin-top: 66px; }
 
-#checkout-shipping-page footer {
-  margin-top: 130px; }
+#checkout-shipping-page .checkout-sidebar {
+  float: right;
+  margin-top: 66px;
+  width: 37.5%; }
+
+#checkout-shipping-page .order-total {
+  border: 2px solid rgba(219, 223, 231, 0.5);
+  box-sizing: border-box;
+  padding: 21.875px;
+  width: 100%; }
 
 #checkout-shipping-page .subfooter {
   margin: 0 auto;
