@@ -5,7 +5,8 @@
 // COLORS
 
 // Color Descriptions
-$white: #fff;
+$white: #ffffff;
+$off-white: #fcfcfc;
 $black: #222222;
 $midnight: #292964;
 $indigo: #675FA3;
@@ -18,7 +19,7 @@ $melon: #C26098;
 
 
 // Color Functions
-$color-body: $white;
+$color-body: $off-white;
 $color-border: rgba($light-blue-gray, 0.5);
 
 $color-box-shadow: rgba($black, 0.5);
@@ -107,6 +108,7 @@ $border-frame: $border-size-frame solid $color-border;
 $margin-section: 130px;
 $margin-footer: 130px;
 $margin-sidebar: 40px;
+$margin-checkout-form: 66px;
 
 $padding-footer: 66px;
 $padding-subfooter: 22px;

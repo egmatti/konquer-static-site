@@ -38,8 +38,19 @@
     @include e(current-page) {
         color: $color-body-text-hover;
         font-weight: $font-weight-demi-bold;
-    }   
+    }  
+
+    @include e(next-page) {
+        cursor: pointer;
+
+        &:hover {
+            color: $color-body-text-hover;
+            text-decoration: underline;
+        }
+    } 
 }
+
+
 
 .helper-link {
     @extend p;
