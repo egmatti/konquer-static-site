@@ -11,20 +11,52 @@
 }
 
 .order-items .divider {
-    margin: 21.875px 0;
+    margin-top: 21.875px;
 }
 
-.order-items table td {
-    vertical-align: top;
+.order-items table {
+    border-collapse: collapse;
+
+    tr {
+        border-bottom: $border-divider;
+
+        td {
+            padding: 21.875px 0;
+            vertical-align: top;
+
+            img {
+                object-fit: contain;
+                width: 100%;
+            }
+
+            div {
+                display: block;
+                margin-left: 21.875px;
+                text-align: left;
+            }
+        }
+    }
 }
 
-.order-items table img {
-    object-fit: contain;
-    width: 100%;
+.order-items table tr:last-of-type {
+    border-bottom: none;
+
+    td {
+        padding-bottom: 0;
+    }
 }
 
-.order-items table div {
-    display: block;
-    margin-left: 21.875px;
-    text-align: left;
+.order-items .product-name {
+    font-size: 1.2rem;
+    margin-bottom: 12.25px;
+}
+
+.order-items .product-price {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.order-items .product-color, .order-items .product-size, .order-items .product-quantity {
+    font-size: 0.925rem;
+    margin-bottom: 5px;
 }

@@ -464,7 +464,7 @@ h6 {
   line-height: 28px;
   margin: 0; }
 
-p, .breadcrumbs, .helper-link, .helper-text, #single-product-page .product-color, #single-product-page .product-description ul li, #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-in-section .email-opt-in-question, #shopping-bag-page table tr td, #checkout-shipping-page .checkout-form .email-opt-in-question {
+p, .breadcrumbs, .helper-link, .helper-text, #single-product-page .product-color, #single-product-page .product-description ul li, #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-in-section .email-opt-in-question, #shopping-bag-page table tr td, #checkout-page .checkout-form .email-opt-in-question {
   color: rgba(34, 34, 34, 0.75);
   line-height: 2rem; }
 
@@ -1114,10 +1114,10 @@ footer small {
       right: 0px;
       top: 5px; }
 
-.email-sign-up-section p, .email-sign-up-section--small p, .email-sign-up-section .breadcrumbs, .email-sign-up-section--small .breadcrumbs, .email-sign-up-section .helper-link, .email-sign-up-section--small .helper-link, .email-sign-up-section .helper-text, .email-sign-up-section--small .helper-text, .email-sign-up-section #single-product-page .product-color, #single-product-page .email-sign-up-section .product-color, .email-sign-up-section--small #single-product-page .product-color, #single-product-page .email-sign-up-section--small .product-color, .email-sign-up-section #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section li, .email-sign-up-section--small #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section--small li, .email-sign-up-section #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 .email-sign-up-section span, .email-sign-up-section--small #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 .email-sign-up-section--small span, .email-sign-up-section #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section .email-sign-up-section .email-opt-in-question, .email-sign-up-section--small #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section .email-sign-up-section--small .email-opt-in-question, .email-sign-up-section #shopping-bag-page table tr td, #shopping-bag-page table tr .email-sign-up-section td, .email-sign-up-section--small #shopping-bag-page table tr td, #shopping-bag-page table tr .email-sign-up-section--small td, .email-sign-up-section #checkout-shipping-page .checkout-form .email-opt-in-question, #checkout-shipping-page .checkout-form .email-sign-up-section .email-opt-in-question, .email-sign-up-section--small #checkout-shipping-page .checkout-form .email-opt-in-question, #checkout-shipping-page .checkout-form .email-sign-up-section--small .email-opt-in-question {
+.email-sign-up-section p, .email-sign-up-section--small p, .email-sign-up-section .breadcrumbs, .email-sign-up-section--small .breadcrumbs, .email-sign-up-section .helper-link, .email-sign-up-section--small .helper-link, .email-sign-up-section .helper-text, .email-sign-up-section--small .helper-text, .email-sign-up-section #single-product-page .product-color, #single-product-page .email-sign-up-section .product-color, .email-sign-up-section--small #single-product-page .product-color, #single-product-page .email-sign-up-section--small .product-color, .email-sign-up-section #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section li, .email-sign-up-section--small #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section--small li, .email-sign-up-section #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 .email-sign-up-section span, .email-sign-up-section--small #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 .email-sign-up-section--small span, .email-sign-up-section #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section .email-sign-up-section .email-opt-in-question, .email-sign-up-section--small #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section .email-sign-up-section--small .email-opt-in-question, .email-sign-up-section #shopping-bag-page table tr td, #shopping-bag-page table tr .email-sign-up-section td, .email-sign-up-section--small #shopping-bag-page table tr td, #shopping-bag-page table tr .email-sign-up-section--small td, .email-sign-up-section #checkout-page .checkout-form .email-opt-in-question, #checkout-page .checkout-form .email-sign-up-section .email-opt-in-question, .email-sign-up-section--small #checkout-page .checkout-form .email-opt-in-question, #checkout-page .checkout-form .email-sign-up-section--small .email-opt-in-question {
   margin-top: 25px; }
 
-.email-sign-up-section--small p, .email-sign-up-section--small .breadcrumbs, .email-sign-up-section--small .helper-link, .email-sign-up-section--small .helper-text, .email-sign-up-section--small #single-product-page .product-color, #single-product-page .email-sign-up-section--small .product-color, .email-sign-up-section--small #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section--small li, .email-sign-up-section--small #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 .email-sign-up-section--small span, .email-sign-up-section--small #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section .email-sign-up-section--small .email-opt-in-question, .email-sign-up-section--small #shopping-bag-page table tr td, #shopping-bag-page table tr .email-sign-up-section--small td, .email-sign-up-section--small #checkout-shipping-page .checkout-form .email-opt-in-question, #checkout-shipping-page .checkout-form .email-sign-up-section--small .email-opt-in-question {
+.email-sign-up-section--small p, .email-sign-up-section--small .breadcrumbs, .email-sign-up-section--small .helper-link, .email-sign-up-section--small .helper-text, .email-sign-up-section--small #single-product-page .product-color, #single-product-page .email-sign-up-section--small .product-color, .email-sign-up-section--small #single-product-page .product-description ul li, #single-product-page .product-description ul .email-sign-up-section--small li, .email-sign-up-section--small #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 .email-sign-up-section--small span, .email-sign-up-section--small #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section .email-sign-up-section--small .email-opt-in-question, .email-sign-up-section--small #shopping-bag-page table tr td, #shopping-bag-page table tr .email-sign-up-section--small td, .email-sign-up-section--small #checkout-page .checkout-form .email-opt-in-question, #checkout-page .checkout-form .email-sign-up-section--small .email-opt-in-question {
   margin-top: 12.25px; }
 
 .email-sign-up-input {
@@ -1188,19 +1188,39 @@ footer small {
   width: 100%; }
 
 .order-items .divider {
-  margin: 21.875px 0; }
+  margin-top: 21.875px; }
 
-.order-items table td {
-  vertical-align: top; }
+.order-items table {
+  border-collapse: collapse; }
+  .order-items table tr {
+    border-bottom: 2px solid rgba(219, 223, 231, 0.5); }
+    .order-items table tr td {
+      padding: 21.875px 0;
+      vertical-align: top; }
+      .order-items table tr td img {
+        object-fit: contain;
+        width: 100%; }
+      .order-items table tr td div {
+        display: block;
+        margin-left: 21.875px;
+        text-align: left; }
 
-.order-items table img {
-  object-fit: contain;
-  width: 100%; }
+.order-items table tr:last-of-type {
+  border-bottom: none; }
+  .order-items table tr:last-of-type td {
+    padding-bottom: 0; }
 
-.order-items table div {
-  display: block;
-  margin-left: 21.875px;
-  text-align: left; }
+.order-items .product-name {
+  font-size: 1.2rem;
+  margin-bottom: 12.25px; }
+
+.order-items .product-price {
+  font-size: 1.1rem;
+  margin-bottom: 20px; }
+
+.order-items .product-color, .order-items .product-size, .order-items .product-quantity {
+  font-size: 0.925rem;
+  margin-bottom: 5px; }
 
 #home-page .hero-section {
   background: url("../images/home/hero.png");
@@ -1227,7 +1247,7 @@ footer small {
   margin-top: 55px; }
   #home-page .hero-text h1 {
     color: #ffffff; }
-  #home-page .hero-text p, #home-page .hero-text .breadcrumbs, #home-page .hero-text .helper-link, #home-page .hero-text .helper-text, #home-page .hero-text #single-product-page .product-color, #single-product-page #home-page .hero-text .product-color, #home-page .hero-text #single-product-page .product-description ul li, #single-product-page .product-description ul #home-page .hero-text li, #home-page .hero-text #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 #home-page .hero-text span, #home-page .hero-text #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section #home-page .hero-text .email-opt-in-question, #home-page .hero-text #shopping-bag-page table tr td, #shopping-bag-page table tr #home-page .hero-text td, #home-page .hero-text #checkout-shipping-page .checkout-form .email-opt-in-question, #checkout-shipping-page .checkout-form #home-page .hero-text .email-opt-in-question {
+  #home-page .hero-text p, #home-page .hero-text .breadcrumbs, #home-page .hero-text .helper-link, #home-page .hero-text .helper-text, #home-page .hero-text #single-product-page .product-color, #single-product-page #home-page .hero-text .product-color, #home-page .hero-text #single-product-page .product-description ul li, #single-product-page .product-description ul #home-page .hero-text li, #home-page .hero-text #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 #home-page .hero-text span, #home-page .hero-text #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section #home-page .hero-text .email-opt-in-question, #home-page .hero-text #shopping-bag-page table tr td, #shopping-bag-page table tr #home-page .hero-text td, #home-page .hero-text #checkout-page .checkout-form .email-opt-in-question, #checkout-page .checkout-form #home-page .hero-text .email-opt-in-question {
     color: #ffffff;
     font-size: 1.2rem;
     margin-top: 25px;
@@ -1302,7 +1322,7 @@ footer small {
   flex-direction: column;
   border: 3px solid rgba(219, 223, 231, 0.5);
   padding: 75px 0; }
-  #home-page .about-section .frame p, #home-page .about-section .frame .breadcrumbs, #home-page .about-section .frame .helper-link, #home-page .about-section .frame .helper-text, #home-page .about-section .frame #single-product-page .product-color, #single-product-page #home-page .about-section .frame .product-color, #home-page .about-section .frame #single-product-page .product-description ul li, #single-product-page .product-description ul #home-page .about-section .frame li, #home-page .about-section .frame #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 #home-page .about-section .frame span, #home-page .about-section .frame #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section #home-page .about-section .frame .email-opt-in-question, #home-page .about-section .frame #shopping-bag-page table tr td, #shopping-bag-page table tr #home-page .about-section .frame td, #home-page .about-section .frame #checkout-shipping-page .checkout-form .email-opt-in-question, #checkout-shipping-page .checkout-form #home-page .about-section .frame .email-opt-in-question {
+  #home-page .about-section .frame p, #home-page .about-section .frame .breadcrumbs, #home-page .about-section .frame .helper-link, #home-page .about-section .frame .helper-text, #home-page .about-section .frame #single-product-page .product-color, #single-product-page #home-page .about-section .frame .product-color, #home-page .about-section .frame #single-product-page .product-description ul li, #single-product-page .product-description ul #home-page .about-section .frame li, #home-page .about-section .frame #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 #home-page .about-section .frame span, #home-page .about-section .frame #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section #home-page .about-section .frame .email-opt-in-question, #home-page .about-section .frame #shopping-bag-page table tr td, #shopping-bag-page table tr #home-page .about-section .frame td, #home-page .about-section .frame #checkout-page .checkout-form .email-opt-in-question, #checkout-page .checkout-form #home-page .about-section .frame .email-opt-in-question {
     margin-top: 30px;
     text-align: center;
     width: 50%; }
@@ -1509,7 +1529,7 @@ footer small {
 #single-product-page .product-information .divider {
   margin: 40px 0; }
 
-#single-product-page .product-description p, #single-product-page .product-description .breadcrumbs, #single-product-page .product-description .helper-link, #single-product-page .product-description .helper-text, #single-product-page .product-description .product-color, #single-product-page .product-description ul li, #single-product-page .product-description #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 #single-product-page .product-description span, #single-product-page .product-description #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section #single-product-page .product-description .email-opt-in-question, #single-product-page .product-description #shopping-bag-page table tr td, #shopping-bag-page table tr #single-product-page .product-description td, #single-product-page .product-description #checkout-shipping-page .checkout-form .email-opt-in-question, #checkout-shipping-page .checkout-form #single-product-page .product-description .email-opt-in-question {
+#single-product-page .product-description p, #single-product-page .product-description .breadcrumbs, #single-product-page .product-description .helper-link, #single-product-page .product-description .helper-text, #single-product-page .product-description .product-color, #single-product-page .product-description ul li, #single-product-page .product-description #sign-in-page .sign-up-side h4 span, #sign-in-page .sign-up-side h4 #single-product-page .product-description span, #single-product-page .product-description #sign-in-page .sign-in-section .email-opt-in-question, #sign-in-page .sign-in-section #single-product-page .product-description .email-opt-in-question, #single-product-page .product-description #shopping-bag-page table tr td, #shopping-bag-page table tr #single-product-page .product-description td, #single-product-page .product-description #checkout-page .checkout-form .email-opt-in-question, #checkout-page .checkout-form #single-product-page .product-description .email-opt-in-question {
   line-height: normal;
   margin-bottom: 17.5px; }
 #single-product-page .product-description ul {
@@ -1704,36 +1724,36 @@ footer small {
 #shopping-bag-page .order-total .total {
   margin-bottom: 40px; }
 
-#checkout-shipping-page header {
+#checkout-page header {
   position: relative; }
 
-#checkout-shipping-page .content {
+#checkout-page .content {
   margin: 0 auto;
   max-width: 1224px;
   width: 85%;
   margin-top: 40px; }
 
-#checkout-shipping-page .step-name {
+#checkout-page .step-name {
   margin-top: 15px; }
 
-#checkout-shipping-page .checkout-form {
+#checkout-page .checkout-form {
   float: left;
   margin-bottom: 130px;
   margin-top: 66px;
   width: 42.5%; }
 
-#checkout-shipping-page .checkout-form label {
+#checkout-page .checkout-form label {
   margin-top: 35px; }
 
-#checkout-shipping-page .checkout-form input {
+#checkout-page .checkout-form input {
   width: 100%; }
 
-#checkout-shipping-page .checkout-form .email-opt-in-question {
+#checkout-page .checkout-form .email-opt-in-question {
   display: block;
   font-size: 0.925rem;
   margin-top: 40px; }
 
-#checkout-shipping-page .checkout-form .email-opt-in {
+#checkout-page .checkout-form .email-opt-in {
   -webkit-appearance: none;
   background-color: #fafafa;
   border: 1px solid #cacece;
@@ -1745,46 +1765,46 @@ footer small {
   display: inline-block;
   position: relative;
   width: 4px; }
-  #checkout-shipping-page .checkout-form .email-opt-in:active {
+  #checkout-page .checkout-form .email-opt-in:active {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
-  #checkout-shipping-page .checkout-form .email-opt-in:checked:active {
+  #checkout-page .checkout-form .email-opt-in:checked:active {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
-  #checkout-shipping-page .checkout-form .email-opt-in:checked {
+  #checkout-page .checkout-form .email-opt-in:checked {
     background-color: #675FA3;
     border: 1px solid #675FA3;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1); }
-  #checkout-shipping-page .checkout-form .email-opt-in:checked:after {
+  #checkout-page .checkout-form .email-opt-in:checked:after {
     content: url("../images/checkmark.svg");
     position: absolute;
     top: 2px;
     left: 3px; }
 
-#checkout-shipping-page .checkout-form .email-opt-in-label {
+#checkout-page .checkout-form .email-opt-in-label {
   display: inline-block;
   float: right !important;
   font-size: 0.925rem;
   margin-top: 12.5px !important;
   width: 92.5%; }
 
-#checkout-shipping-page .checkout-form .submit-button {
+#checkout-page .checkout-form .submit-button {
   margin-top: 40px;
   width: 100%; }
 
-#checkout-shipping-page .checkout-form .help-information {
+#checkout-page .checkout-form .help-information {
   margin-top: 66px; }
 
-#checkout-shipping-page .checkout-sidebar {
+#checkout-page .checkout-sidebar {
   float: right;
   margin-top: 66px;
   width: 37.5%; }
 
-#checkout-shipping-page .order-total {
+#checkout-page .order-total {
   border: 2px solid rgba(219, 223, 231, 0.5);
   box-sizing: border-box;
   padding: 21.875px;
   width: 100%; }
 
-#checkout-shipping-page .subfooter {
+#checkout-page .subfooter {
   margin: 0 auto;
   max-width: 1224px;
   width: 85%; }

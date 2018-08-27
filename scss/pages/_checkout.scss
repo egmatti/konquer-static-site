@@ -1,43 +1,43 @@
 // ==========================================
-// CHECKOUT SHIPPING PAGE
+// CHECKOUT PAGES
 // ==========================================
 
-#checkout-shipping-page header {
+#checkout-page header {
     position: relative;
 }
 
-#checkout-shipping-page .content {
+#checkout-page .content {
     @include content-width-large();
     margin-top: 40px;
 }
 
-#checkout-shipping-page .step-name {
+#checkout-page .step-name {
     margin-top: 15px;
 }
 
-#checkout-shipping-page .checkout-form {
+#checkout-page .checkout-form {
     float: left;
     margin-bottom: $margin-footer;
     margin-top: $margin-checkout-form;
     width: 42.5%;
 }
 
-#checkout-shipping-page .checkout-form label {
+#checkout-page .checkout-form label {
     margin-top: 35px;
 }
 
-#checkout-shipping-page .checkout-form input {
+#checkout-page .checkout-form input {
     width: 100%;
 }
 
-#checkout-shipping-page .checkout-form .email-opt-in-question {
+#checkout-page .checkout-form .email-opt-in-question {
     @extend p;
     display: block;
     font-size: 0.925rem;
     margin-top: 40px;
 }
 
-#checkout-shipping-page .checkout-form .email-opt-in {
+#checkout-page .checkout-form .email-opt-in {
     -webkit-appearance: none;
 	background-color: #fafafa;
 	border: 1px solid #cacece;
@@ -72,7 +72,7 @@
     }
 }
 
-#checkout-shipping-page .checkout-form .email-opt-in-label {
+#checkout-page .checkout-form .email-opt-in-label {
     display: inline-block;
     float: right !important;
     font-size: 0.925rem;
@@ -80,28 +80,28 @@
     width: 92.5%;
 }
 
-#checkout-shipping-page .checkout-form .submit-button {
+#checkout-page .checkout-form .submit-button {
     margin-top: 40px;
     width: 100%;
 }
 
-#checkout-shipping-page .checkout-form .help-information {
+#checkout-page .checkout-form .help-information {
     margin-top: 66px;
 }
 
-#checkout-shipping-page .checkout-sidebar {
+#checkout-page .checkout-sidebar {
     float: right;
     margin-top: $margin-checkout-form;
     width: 37.5%;
 }
 
-#checkout-shipping-page .order-total {
+#checkout-page .order-total {
     border: $border-divider;
     box-sizing: border-box;
     padding: 21.875px;
     width: 100%;
 }
 
-#checkout-shipping-page .subfooter {
+#checkout-page .subfooter {
     @include content-width-large();
 }
