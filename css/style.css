@@ -1790,6 +1790,25 @@ footer small {
   margin-top: 40px;
   width: 100%; }
 
+#checkout-page .checkout-form .checkout-information {
+  margin-top: 40px; }
+
+#checkout-page .checkout-form .checkout-information .colon {
+  float: left;
+  margin-bottom: 15px; }
+
+#checkout-page .checkout-form .checkout-information .helper-link {
+  float: right; }
+
+#checkout-page .checkout-form .checkout-information span {
+  clear: both;
+  display: block;
+  font-size: 1.1rem;
+  line-height: 24px; }
+
+#checkout-page .checkout-form .divider {
+  margin: 40px 0; }
+
 #checkout-page .checkout-form .help-information {
   margin-top: 66px; }
 
