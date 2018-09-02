@@ -54,9 +54,95 @@ select {
     padding-right: 2em
 }
 
-.colon {
-    color: $color-colon;
+.label {
+    color: $color-label;
     font-weight: $font-weight-demi-bold;
     letter-spacing: 1.45px;
     text-transform: uppercase;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+	background-color: $white;
+	border: $border-checkmark;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 2.5px;
+    margin-top: 17.5px;
+	padding: 7.5px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+    width: 2.5px;
+
+    &:checked {
+        background-color: $color-checkmark;
+        border: $border-checkmark;
+    }
+
+    &:checked:after {
+        content: url("../images/checkmark.svg");
+        left: 0.75px;
+        position: absolute;
+        top: 0.25px;
+        transform: scale(0.85);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.radio {
+    -webkit-appearance: none;
+    background-color: $white;
+    border: $border-radio-button;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    height: 2.5px;
+    margin-top: 3px;
+    padding: 7.5px;
+    position: relative;
+    vertical-align: top;
+    width: 2.5px;
+
+    &:checked:after {
+        color: $color-radio-button;
+        content: "\25CF";
+        font-size: 27.5px;
+        left: -0.75px;
+        position: absolute;
+        top: -9.025px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.radio-option {
+    cursor: pointer;
+    margin: 30px 0;
+
+    label {
+        color: $color-body-text;
+        display: inline-block;
+        font-size: 1.1rem;
+        line-height: 25px;
+        margin-bottom: 0;
+        margin-left: 15px;
+        vertical-align: top;
+
+        span {
+            color: $color-label;
+            font-size: 1.1rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 }

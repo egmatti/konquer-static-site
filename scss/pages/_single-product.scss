@@ -76,12 +76,12 @@
         display: none;
 
         &:checked + label {
-            background: $color-radio-button;
+            background: $color-product-size-selector;
         }
     }
 
     label {
-        border: $border-radio-button;
+        border: $border-product-size-selector;
         cursor: pointer;
         display: inline-block;
         font-size: 1rem;
@@ -92,7 +92,7 @@
         text-align: center;
 
         &:hover {
-            background: $color-radio-button;
+            background: $color-product-size-selector;
         }
     }
 }

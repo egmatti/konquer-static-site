@@ -45,16 +45,28 @@ CHECKOUT DELIVERY PAGE
             <div class="checkout-form">
                 <h4>Select Delivery Method</h4>
                 <div class="checkout-information">
-                    <h6 class="colon">Shipping Address:</h6>
+                    <h6 class="label">Shipping Address:</h6>
                     <a class="helper-link">Edit</a>
                     <span>Emily Mattison</span>
                     <span>534 Twin Drive</span>
                     <span>Spartanburg, SC</span>
                 </div>
                 <div class="divider"></div>
-                <h6 class="colon">Delivery Method:</h6>
+                <h6 class="label">Delivery Method:</h6>
                 <form class="delivery-method-form">
-
+                    <div class="radio-option">
+                         <input class="radio" type="radio" name="delivery-method" value="standard" id="standard" checked>
+                         <label for="standard"><span>Expected by Monday, July 16</span><br>Standard Shipping<br><span>$7.95</span></label>
+                    </div>
+                    <div class="radio-option">
+                        <input class="radio" type="radio" name="delivery-method" value="express" id="express">
+                        <label for="express"><span>Expected by Friday, July 13</span><br>Express Shipping<br><span>$10.00</span></label>
+                    </div>
+                    <div class="radio-option">
+                        <input class="radio" type="radio" name="delivery-method" value="overnight" id="overnight">
+                        <label for="overnight"><span>Expected by Thursday, July 12</span><br>Overnight Shipping<br><span>$20.00</span></label>
+                    </div>
+                    <input class="submit-button cta" type="submit" value="Save &amp; Continue">
                 </form>
                 
                 <div class="help-information">
@@ -95,9 +107,9 @@ CHECKOUT DELIVERY PAGE
                             <td>
                                 <div class="product-name">Prism Rashguard</div>
                                 <div class="product-price">$39.99</div>
-                                <div class="product-color"><span class="colon">Color:</span> Multi-Color</div>
-                                <div class="product-size"><span class="colon">Size:</span> M</div>
-                                <div class="product-quantity"><span class="colon">QTY:</span> 1</div>
+                                <div class="product-color"><span class="label">Color:</span> Multi-Color</div>
+                                <div class="product-size"><span class="label">Size:</span> M</div>
+                                <div class="product-quantity"><span class="label">QTY:</span> 1</div>
                             </td>
                         </tr>
                         <tr>
@@ -105,9 +117,9 @@ CHECKOUT DELIVERY PAGE
                             <td>
                                 <div class="product-name">Large Gear Bag</div>
                                 <div class="product-price">$38.00</div>
-                                <div class="product-color"><span class="colon">Color:</span> Black</div>
-                                <div class="product-size"><span class="colon">Size:</span> N/A</div>
-                                <div class="product-quantity"><span class="colon">QTY:</span> 1</div>
+                                <div class="product-color"><span class="label">Color:</span> Black</div>
+                                <div class="product-size"><span class="label">Size:</span> N/A</div>
+                                <div class="product-quantity"><span class="label">QTY:</span> 1</div>
                             </td>
                         </tr>
                     </table>

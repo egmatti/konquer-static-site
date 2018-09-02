@@ -815,7 +815,7 @@ label {
   margin-bottom: 8.75px; }
 
 input {
-  border: 3px solid rgba(41, 41, 100, 0.3);
+  border: 2px solid rgba(41, 41, 100, 0.3);
   box-sizing: border-box;
   font-size: 1.1rem;
   height: 35px;
@@ -848,11 +848,78 @@ select {
   padding: .5em;
   padding-right: 2em; }
 
-.colon {
+.label {
   color: #222222;
   font-weight: 600;
   letter-spacing: 1.45px;
   text-transform: uppercase; }
+
+.checkbox {
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border: 2px solid #675FA3;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 2.5px;
+  margin-top: 17.5px;
+  padding: 7.5px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  width: 2.5px; }
+  .checkbox:checked {
+    background-color: #675FA3;
+    border: 2px solid #675FA3; }
+  .checkbox:checked:after {
+    content: url("../images/checkmark.svg");
+    left: 0.75px;
+    position: absolute;
+    top: 0.25px;
+    transform: scale(0.85); }
+  .checkbox:focus {
+    outline: none; }
+
+.radio {
+  -webkit-appearance: none;
+  background-color: #ffffff;
+  border: 2px solid #675FA3;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.5px;
+  margin-top: 3px;
+  padding: 7.5px;
+  position: relative;
+  vertical-align: top;
+  width: 2.5px; }
+  .radio:checked:after {
+    color: #675FA3;
+    content: "\25CF";
+    font-size: 27.5px;
+    left: -0.75px;
+    position: absolute;
+    top: -9.025px; }
+  .radio:focus {
+    outline: none; }
+
+.radio-option {
+  cursor: pointer;
+  margin: 30px 0; }
+  .radio-option label {
+    color: rgba(34, 34, 34, 0.75);
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    vertical-align: top; }
+    .radio-option label span {
+      color: #222222;
+      font-size: 1.1rem;
+      font-weight: 500; }
+  .radio-option:last-of-type {
+    margin-bottom: 0; }
 
 .slick-prev:before {
   content: url("../images/home/instagram/left-angle.svg");
@@ -1586,31 +1653,8 @@ footer small {
   font-size: 0.925rem;
   margin-top: 40px; }
 
-#sign-in-page .sign-in-section .email-opt-in {
-  -webkit-appearance: none;
-  background-color: #fafafa;
-  border: 1px solid #cacece;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  height: 4px;
-  margin-top: 17.5px;
-  padding: 9px;
-  border-radius: 3px;
-  display: inline-block;
-  position: relative;
+#sign-in-page .sign-in-section .checkbox {
   width: 4px; }
-  #sign-in-page .sign-in-section .email-opt-in:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
-  #sign-in-page .sign-in-section .email-opt-in:checked:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
-  #sign-in-page .sign-in-section .email-opt-in:checked {
-    background-color: #675FA3;
-    border: 1px solid #675FA3;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1); }
-  #sign-in-page .sign-in-section .email-opt-in:checked:after {
-    content: url("../images/checkmark.svg");
-    position: absolute;
-    top: 2px;
-    left: 3px; }
 
 #sign-in-page .sign-in-section .email-opt-in-label {
   display: inline-block;
@@ -1753,31 +1797,8 @@ footer small {
   font-size: 0.925rem;
   margin-top: 40px; }
 
-#checkout-page .checkout-form .email-opt-in {
-  -webkit-appearance: none;
-  background-color: #fafafa;
-  border: 1px solid #cacece;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  height: 4px;
-  margin-top: 17.5px;
-  padding: 9px;
-  border-radius: 3px;
-  display: inline-block;
-  position: relative;
+#checkout-page .checkout-form .checkbox {
   width: 4px; }
-  #checkout-page .checkout-form .email-opt-in:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
-  #checkout-page .checkout-form .email-opt-in:checked:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
-  #checkout-page .checkout-form .email-opt-in:checked {
-    background-color: #675FA3;
-    border: 1px solid #675FA3;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1); }
-  #checkout-page .checkout-form .email-opt-in:checked:after {
-    content: url("../images/checkmark.svg");
-    position: absolute;
-    top: 2px;
-    left: 3px; }
 
 #checkout-page .checkout-form .email-opt-in-label {
   display: inline-block;
@@ -1787,13 +1808,13 @@ footer small {
   width: 92.5%; }
 
 #checkout-page .checkout-form .submit-button {
-  margin-top: 40px;
+  margin-top: 66px;
   width: 100%; }
 
 #checkout-page .checkout-form .checkout-information {
   margin-top: 40px; }
 
-#checkout-page .checkout-form .checkout-information .colon {
+#checkout-page .checkout-form .checkout-information .label {
   float: left;
   margin-bottom: 15px; }
 
@@ -1808,6 +1829,15 @@ footer small {
 
 #checkout-page .checkout-form .divider {
   margin: 40px 0; }
+
+#checkout-page .checkout-form .radio {
+  width: auto; }
+
+#checkout-page .checkout-form .radio-option label {
+  margin-top: 0; }
+
+#checkout-page .checkout-form .shipping-information-form .submit-button {
+  margin-top: 40px; }
 
 #checkout-page .checkout-form .help-information {
   margin-top: 66px; }

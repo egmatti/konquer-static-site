@@ -41,8 +41,9 @@ $color-helper-link: rgba($black, 0.75);
 $color-helper-link-hover: $black;
 $color-helper-text: rgba($black, 0.75);
 $color-form: rgba($midnight, 0.3);
-$color-colon: $black;
-$color-radio-button: $light-blue-gray;
+$color-label: $black;
+$color-checkmark: $indigo;
+$color-radio-button: $indigo;
 $color-dropdown: rgba($black, 0.75);
 $color-table-header: $black;
 
@@ -52,6 +53,7 @@ $color-footer: $white;
 $color-product-name: $black;
 $color-product-name-hover: $indigo;
 $color-product-price: rgba($black, 0.75);
+$color-product-size-selector: $light-blue-gray;
 
 
 // FONTS
@@ -83,24 +85,28 @@ $line-height-sidebar-nav: 2.85rem;
 
 $border-size: 2px;
 $border-size-button: 3px;
-$border-size-form: 3px;
+$border-size-form: 2px;
+$border-size-checkmark: 2px;
 $border-size-radio-button: 2px;
 $border-size-dropdown: 0.75px;
 $border-size-table: 2px;
 $border-size-header: 2px;
 $border-size-footer: 3px;
 $border-size-frame: 3px;
+$border-size-product-size-selector: 2px;
 
 $border-divider: $border-size solid $color-border;
 $border-button: $border-size-button solid $color-button;
 $border-button-hover: $border-size-button solid $color-button-hover;
 $border-form: $border-size-form solid $color-form;
+$border-checkmark: $border-size-checkmark solid $color-checkmark;
 $border-radio-button: $border-size-radio-button solid $color-radio-button;
 $border-dropdown: $border-size-dropdown solid $color-dropdown;
 $border-table: $border-size-table solid $color-border;
 $border-header: $border-size-header solid $color-border;
 $border-footer: $border-size-footer solid $color-border;
 $border-frame: $border-size-frame solid $color-border;
+$border-product-size-selector: $border-size-product-size-selector solid $color-product-size-selector;
 
 
 // MARGINS AND PADDING
