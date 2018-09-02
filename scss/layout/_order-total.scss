@@ -7,6 +7,10 @@
     div {
         @include flexbox($justify: space-between);
         margin-bottom: 10px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 }
 

@@ -1233,6 +1233,8 @@ footer small {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px; }
+  .order-total div:last-of-type {
+    margin-bottom: 0; }
 
 .order-total .tax {
   margin-bottom: 0; }
