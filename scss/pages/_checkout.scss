@@ -22,12 +22,24 @@
     width: 42.5%;
 }
 
+#checkout-page .checkout-form .checkout-link {
+    @extend .helper-link;
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
 #checkout-page .checkout-form label {
+    display: inline-block;
     margin-top: 35px;
 }
 
 #checkout-page .checkout-form input {
     width: 100%;
+}
+
+#checkout-page .checkout-form .optional-text {
+    margin-top: 35px;
 }
 
 #checkout-page .checkout-form .email-opt-in-question {
@@ -47,11 +59,6 @@
     font-size: 0.925rem;
     margin-top: 12.5px !important;
     width: 92.5%;
-}
-
-#checkout-page .checkout-form .submit-button {
-    margin-top: 66px;
-    width: 100%;
 }
 
 #checkout-page .checkout-form .checkout-information {
@@ -78,7 +85,7 @@
     margin: 40px 0;
 }
 
-#checkout-page .checkout-form .radio {
+#checkout-page .checkout-form .radio-button {
     width: auto;
 }
 
@@ -86,12 +93,71 @@
     margin-top: 0;
 }
 
-#checkout-page .checkout-form .shipping-information-form .submit-button {
-    margin-top: 40px;
+#checkout-page .checkout-form .submit-button {
+    margin-top: 66px;
+    width: 100%;
 }
 
 #checkout-page .checkout-form .help-information {
     margin-top: 66px;
+}
+
+#checkout-page .checkout-form .shipping-address-form .submit-button {
+    margin-top: 40px;
+}
+
+#checkout-page .checkout-form .card-types {
+    clear: both;
+    display: block;
+    margin-top: 15px;
+}
+
+#checkout-page .checkout-form .card-information-form .expiration-date {
+    display: inline-block;
+    width: 66%;
+
+    label {
+        display: block;
+    }
+
+    select {
+        height: 35px;
+        width: 47%;
+
+        &:first-of-type {
+            margin-right: 4%;
+        }
+    }
+}
+
+#checkout-page .checkout-form .card-information-form .cvv {
+    display: inline-block;
+    float: right;
+    width: 23%;
+}
+
+#checkout-page .checkout-form .card-information-form .save-card {
+    @include clearfix();
+    margin: 40px 0;
+}
+
+#checkout-page .checkout-form .card-information-form .save-card-label {
+    display: inline-block;
+    float: right !important;
+    font-size: 0.925rem;
+    margin-top: 12.5px !important;
+    width: 92.5%;
+}
+
+#checkout-page .checkout-form .billing-address-fieldset {
+    border: none;
+    display: none;
+    margin-top: 40px;
+    padding: 0;
+
+    label:first-of-type {
+        margin-top: 0;
+    }
 }
 
 #checkout-page .checkout-sidebar {
