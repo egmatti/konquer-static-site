@@ -48,7 +48,10 @@ $color-checkmark: $indigo;
 $color-radio-button: $indigo;
 $color-dropdown: rgba($black, 0.75);
 $color-dropdown-focused: rgba($midnight, 0.6);
-$color-table-header: $black;
+$color-table-header: $indigo;
+$color-table-border: rgba($black, 0.75);
+$color-table-row: rgba($periwinkle, 0.20);
+
 
 $color-header: $white;
 $color-footer: $white;
@@ -57,6 +60,7 @@ $color-product-name: $black;
 $color-product-name-hover: $indigo;
 $color-product-price: rgba($black, 0.75);
 $color-product-size-selector: $light-blue-gray;
+$color-shopping-bag-column-title: $black;
 
 
 // FONTS
@@ -92,11 +96,12 @@ $border-size-input: 2px;
 $border-size-checkmark: 2px;
 $border-size-radio-button: 2px;
 $border-size-dropdown: 0.75px;
-$border-size-table: 2px;
+$border-size-table: 0.75px;
 $border-size-header: 2px;
 $border-size-footer: 3px;
 $border-size-frame: 3px;
 $border-size-product-size-selector: 2px;
+$border-size-shopping-bag: 2px;
 
 $border-divider: $border-size solid $color-border;
 $border-button: $border-size-button solid $color-button;
@@ -107,11 +112,12 @@ $border-checkmark: $border-size-checkmark solid $color-checkmark;
 $border-radio-button: $border-size-radio-button solid $color-radio-button;
 $border-dropdown: $border-size-dropdown solid $color-dropdown;
 $border-dropdown-focused: $border-size-dropdown solid $color-dropdown-focused;
-$border-table: $border-size-table solid $color-border;
+$border-table: $border-size-table solid $color-table-border;
 $border-header: $border-size-header solid $color-border;
 $border-footer: $border-size-footer solid $color-border;
 $border-frame: $border-size-frame solid $color-border;
 $border-product-size-selector: $border-size-product-size-selector solid $color-product-size-selector;
+$border-shopping-bag: $border-size-shopping-bag solid $color-border;
 
 
 // MARGINS AND PADDING

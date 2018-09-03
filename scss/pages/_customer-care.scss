@@ -17,6 +17,44 @@
             margin-top: 0;
         }
     }
+
+    table {
+        border: $border-table;
+        border-collapse: collapse;
+        margin-top: 40px;
+        width: 100%;
+
+        col {
+            border: $border-table;
+            border-collapse: collapse;
+        }
+
+        tr {
+            border: $border-table;
+            border-collapse: collapse;
+
+            &:nth-child(odd) {
+                background: $color-table-row;
+            }
+
+            th {
+                @extend .label;
+                background: $indigo;
+                color: $white;
+                font-size: 0.925rem;
+                padding-bottom: 25px;
+                padding-top: 25px;
+                text-align: center;
+            }
+
+            td {
+                font-size: 0.925rem;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                text-align: center;
+            }
+        }
+    }
 }
 
 #customer-care-page .content .divider {

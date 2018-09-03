@@ -861,7 +861,7 @@ select {
   select:focus {
     outline: 0.75px solid rgba(41, 41, 100, 0.6); }
 
-.label {
+.label, #customer-care-page .content .customer-care-text table tr th {
   color: #222222;
   font-weight: 600;
   letter-spacing: 1.45px;
@@ -1840,7 +1840,7 @@ footer small {
 #checkout-page .checkout-information .checkout-text {
   margin-top: 40px; }
 
-#checkout-page .checkout-information .checkout-text .label {
+#checkout-page .checkout-information .checkout-text .label, #checkout-page .checkout-information .checkout-text #customer-care-page .content .customer-care-text table tr th, #customer-care-page .content .customer-care-text table tr #checkout-page .checkout-information .checkout-text th {
   float: left;
   margin-bottom: 15px;
   vertical-align: top; }
@@ -1973,6 +1973,31 @@ footer small {
     margin-top: 15px; }
     #customer-care-page .content .customer-care-text p:first-of-type, #customer-care-page .content .customer-care-text .breadcrumbs:first-of-type, #customer-care-page .content .customer-care-text #single-product-page .product-color:first-of-type, #single-product-page #customer-care-page .content .customer-care-text .product-color:first-of-type, #customer-care-page .content .customer-care-text #single-product-page .product-description ul li:first-of-type, #single-product-page .product-description ul #customer-care-page .content .customer-care-text li:first-of-type, #customer-care-page .content .customer-care-text #sign-in-page .sign-up-side h4 span:first-of-type, #sign-in-page .sign-up-side h4 #customer-care-page .content .customer-care-text span:first-of-type, #customer-care-page .content .customer-care-text #sign-in-page .sign-in-section .email-opt-in-question:first-of-type, #sign-in-page .sign-in-section #customer-care-page .content .customer-care-text .email-opt-in-question:first-of-type, #customer-care-page .content .customer-care-text #shopping-bag-page table tr td:first-of-type, #shopping-bag-page table tr #customer-care-page .content .customer-care-text td:first-of-type, #customer-care-page .content .customer-care-text #checkout-page .checkout-information .email-opt-in-question:first-of-type, #checkout-page .checkout-information #customer-care-page .content .customer-care-text .email-opt-in-question:first-of-type {
       margin-top: 0; }
+  #customer-care-page .content .customer-care-text table {
+    border: 0.75px solid rgba(34, 34, 34, 0.75);
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 100%; }
+    #customer-care-page .content .customer-care-text table col {
+      border: 0.75px solid rgba(34, 34, 34, 0.75);
+      border-collapse: collapse; }
+    #customer-care-page .content .customer-care-text table tr {
+      border: 0.75px solid rgba(34, 34, 34, 0.75);
+      border-collapse: collapse; }
+      #customer-care-page .content .customer-care-text table tr:nth-child(odd) {
+        background: rgba(167, 173, 198, 0.2); }
+      #customer-care-page .content .customer-care-text table tr th {
+        background: #675FA3;
+        color: #ffffff;
+        font-size: 0.925rem;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: center; }
+      #customer-care-page .content .customer-care-text table tr td {
+        font-size: 0.925rem;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: center; }
 
 #customer-care-page .content .divider {
   margin: 40px auto; }
