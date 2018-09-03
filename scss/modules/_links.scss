@@ -50,13 +50,11 @@
     } 
 }
 
-
-
 .helper-link {
-    @extend p;
     color: $color-helper-link;
     cursor: pointer;
     font-size: 0.925rem;
+    line-height: $line-height-body-text;
     text-decoration: underline;
 
     &:hover {
@@ -65,7 +63,7 @@
 }
 
 .helper-text {
-    @extend p;
     color: $color-helper-text;
     font-size: 0.925rem;
+    line-height: $line-height-body-text;
 }

@@ -1,5 +1,5 @@
 <!-- ==========================================
-CHECKOUT REVIEW PAGE
+CHECKOUT CONFIRMATION PAGE
 ========================================== -->
 
 
@@ -40,38 +40,31 @@ CHECKOUT REVIEW PAGE
 <!-- CONTENT -->
 
         <section class="content">
-            <span class="breadcrumbs"><a class="breadcrumbs__previous-page">Shipping</a> > <a class="breadcrumbs__previous-page">Delivery</a> > <span class="breadcrumbs__previous-page">Payment</span> > <span class="breadcrumbs__current-page">Review</span></span>
-            <h3 class="step-name">Review</h3>
+            <h3 class="step-name">Confirmation</h3>
             <div class="checkout-information">
-                <h4>Shipping & Delivery</h4>
+                <h4>Thank You for Shopping with Us!</h4>
+                <div class="checkout-text">
+                    <p>Your order number is <span>#884779315.</span><br>
+                    You’ll receive your receipt at <span>egmatti@gmail.com.</span><br>
+                    Your expected arrival date is <span>Monday, July 16.</span></p>
+                </div>
+                
+                <div class="divider"></div>
                 <div class="checkout-text">
                     <h6 class="label">Shipping Address:</h6>
-                    <a class="helper-link">Edit</a>
                     <p>Emily Mattison<br>
                     534 Twin Drive<br>
                     Spartanburg, SC 29302<br>
                     USA</p>
                 </div>
-                <form class="delivery-method-form">
+                <div class="checkout-text">
                     <h6 class="label">Delivery Method:</h6>
-                    <div class="radio-option">
-                         <input class="radio-button" type="radio" name="delivery-method" value="standard" id="standard" checked>
-                         <label for="standard"><span>Expected by Monday, July 16</span><br>Standard Shipping<br><span>$7.95</span></label>
-                    </div>
-                    <div class="radio-option">
-                        <input class="radio-button" type="radio" name="delivery-method" value="express" id="express">
-                        <label for="express"><span>Expected by Friday, July 13</span><br>Express Shipping<br><span>$10.00</span></label>
-                    </div>
-                    <div class="radio-option">
-                        <input class="radio-button" type="radio" name="delivery-method" value="overnight" id="overnight">
-                        <label for="overnight"><span>Expected by Thursday, July 12</span><br>Overnight Shipping<br><span>$20.00</span></label>
-                    </div>
-                </form>
-                <div class="divider"></div>
-                <h4>Payment</h4>
+                    <p>Standard Shipping<br>
+                    Expected by Monday, July 16
+                    </p>
+                </div>
                 <div class="checkout-text">
                     <h6 class="label">Billing Address:</h6>
-                    <a class="helper-link">Edit</a>
                     <p>Emily Mattison<br>
                     534 Twin Drive<br>
                     Spartanburg, SC 29302<br>
@@ -79,20 +72,10 @@ CHECKOUT REVIEW PAGE
                 </div>
                 <div class="checkout-text">
                     <h6 class="label">Payment Type:</h6>
-                    <a class="helper-link">Edit</a>
                     <div class="card-information">
                         <img class="card-type" src="images/card-types/visa.png" alt="Visa">
                         <p>Visa ending in 9160, 01/18</p>
                     </div>
-                </div>
-                <div class="checkout-links">
-                    <a class="checkout-link">Redeem a Gift Card</a>
-                    <a class="checkout-link">Enter a Promo Code</a>
-                </div>
-                <input class="submit-button cta" type="submit" value="Place My Order">
-                <div class="help-information">
-                    <h6>Need Help?</h6>
-                    <p class="helper-text">Give us a call at 1-800-381-2784.</p>
                 </div>
             </div>
             <div class="order-summary">
@@ -147,24 +130,105 @@ CHECKOUT REVIEW PAGE
 
                 </div>
             </div>
-        
+
+            <section class="similar-products-section">
+                <h4>You May Also Like</h4>
+                <div class="divider"></div>
+                <div class="similar-products">
+                    <div class="similar-product">
+                        <img id="similar-product-1" class="product-image" src="images/similar-products/product-1/main-image.png" alt="Large Gear Bag">
+                        <span class="product-name">Large Gear Bag</span>
+                        <span class="product-price">$38.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-2" class="product-image" src="images/similar-products/product-2/main-image.png" alt="Jitsuka Hoodie">
+                        <span class="product-name">Jitsuka Hoodie</span>
+                        <span class="product-price">$25.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-3" class="product-image" src="images/similar-products/product-3/main-image.png" alt="Prism Spats">
+                        <span class="product-name">Prism Spats</span>
+                        <span class="product-price">$40.00</span>
+                    </div>
+                    <div class="similar-product">
+                        <img id="similar-product-4" class="product-image" src="images/similar-products/product-4/main-image.png" alt="Black Rashguard">
+                        <span class="product-name">Black Rashguard</span>
+                        <span class="product-price">$22.00</span>
+                    </div>
+                </div>
+                <button>View More</button>
+            </section> 
             
-             
-            
+        </section>
+
+
+<!-- EMAIL SIGN-UP -->
+  
+        <section class="email-sign-up-section--small">
+            <div class="email-sign-up-content">
+                <div class="email-sign-up-text">
+                <h3>Be In the Know-Gi</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <div class="email-sign-up-form">
+                <input class="email-sign-up-input" type="text" name="email" placeholder="Enter your email address">
+                <input class="submit-button" type="submit" value="Submit">
+                </div>
+            </div>
         </section>
 
 
 <!-- FOOTER -->
         
         <footer>
+            <div class="footer-nav">
+        
+                <div class="footer-nav--customer-care">
+                    <a><h4>Customer Care</h4></a>
+                    <div class="customer-care-columns">
+                        <ul>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Shipping &amp; Delivery</a></li>
+                            <li><a>Returns &amp; Exchanges</a></li>
+                            
+                        </ul>
+                        <ul>
+                            <li><a>Sizing Guide</a></li>
+                            <li><a>Payment</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="footer-nav--information">
+                    <a><h4>Information</h4></a>
+                    <ul>
+                        <li><a>About Us</a></li>
+                        <li><a>Athletes</a></li>
+                        <li><a>Giving</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-nav--social-media">
+                    <h4>Connect</h4>
+                    <ul class="social-media">
+                        <li><a><img class="social-icon" src="images/footer/facebook.svg" alt="Facebook"></a></li>
+                        <li><a><img class="social-icon" src="images/footer/twitter.svg" alt="Twitter"></a></li>
+                        <li><a><img class="social-icon" src="images/footer/instagram.svg" alt="Instagram"></a></li>
+                    </ul>
+                </div>
+        
+            </div>
+        
             <div class="divider"></div>
+        
             <div class="subfooter">
                 <small>&copy; 2018 Konquer Jiu Jitsu</small>
                 <small>
-                    <a class="legal-link" href="#">Shipping &amp; Delivery</a>  | <a class="legal-link" href="#">Payment</a> | <a class="legal-link" href="#">Returns &amp; Exchanges</a>
+                    <a class="legal-link" href="#">Privacy</a>  | <a class="legal-link" href="#">Terms &amp; Conditions</a> | <a class="legal-link" href="#">CA Notice</a>
                 </small>
             </div>
         </footer>
+        
         
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

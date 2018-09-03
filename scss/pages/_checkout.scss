@@ -55,10 +55,9 @@
 
 #checkout-page .checkout-information .email-opt-in-label {
     display: inline-block;
-    float: right !important;
     font-size: 0.925rem;
-    margin-top: 12.5px !important;
-    width: 92.5%;
+    margin-top: 15px !important;
+    margin-left: 15px;
 }
 
 #checkout-page .checkout-information .checkout-text {
@@ -68,18 +67,27 @@
 #checkout-page .checkout-information .checkout-text .label {
     float: left;
     margin-bottom: 15px;
+    vertical-align: top;
 }
 
 #checkout-page .checkout-information .checkout-text .helper-link {
     float: right;
+    font-size: 0.925rem;
+    vertical-align: top;
 }
 
-#checkout-page .checkout-information .checkout-text span {
-    color: $color-body-text;
+#checkout-page .checkout-information .checkout-text p {
     clear: both;
     display: block;
     font-size: 1.1rem;
     line-height: 24px;
+
+    span {
+        color: $color-body-text-emphasis;
+        font-size: 1.1rem;
+        font-weight: $font-weight-medium;
+        line-height: 24px;
+    }
 }
 
 #checkout-page .checkout-information .divider {
@@ -148,10 +156,9 @@
 
 #checkout-page .checkout-information .card-information-form .save-card-label {
     display: inline-block;
-    float: right !important;
     font-size: 0.925rem;
-    margin-top: 12.5px !important;
-    width: 92.5%;
+    margin-top: 15px !important;
+    margin-left: 15px;
 }
 
 #checkout-page .checkout-information .billing-address-fieldset {
@@ -174,7 +181,7 @@
         vertical-align: top;
     }
 
-    span {
+    p {
         display: inline-block;
         vertical-align: top;
     }
