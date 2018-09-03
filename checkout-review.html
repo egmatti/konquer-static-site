@@ -1,5 +1,5 @@
 <!-- ==========================================
-CHECKOUT PAYMENT PAGE
+CHECKOUT REVIEW PAGE
 ========================================== -->
 
 
@@ -40,89 +40,56 @@ CHECKOUT PAYMENT PAGE
 <!-- CONTENT -->
 
         <section class="content">
-            <span class="breadcrumbs"><a class="breadcrumbs__previous-page">Shipping</a> > <a class="breadcrumbs__previous-page">Delivery</a> > <span class="breadcrumbs__current-page">Payment</span> > <span class="breadcrumbs__next-page">Review</span></span>
-            <h3 class="step-name">Payment</h3>
+            <span class="breadcrumbs"><a class="breadcrumbs__previous-page">Shipping</a> > <a class="breadcrumbs__previous-page">Delivery</a> > <span class="breadcrumbs__previous-page">Payment</span> > <span class="breadcrumbs__current-page">Review</span></span>
+            <h3 class="step-name">Review</h3>
             <div class="checkout-information">
-                <h4>Add Payment Method</h4>
-                <a class="checkout-link">Redeem a Gift Card</a>
+                <h4>Shipping & Delivery</h4>
                 <div class="checkout-text">
-                    <h6 class="label">Card Information</h6>
-                    <div class="card-types">
-                        <img class="card-type" src="images/card-types/american-express.png" alt="American Express">
-                        <img class="card-type" src="images/card-types/mastercard.png" alt="MasterCard">
-                        <img class="card-type" src="images/card-types/visa.png" alt="Visa">
-                    </div>
-                    <form class="card-information-form">
-                        <label for="card-number">Card Number</label>
-                        <input type="text" name="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
-                        <div class="expiration-date">
-                            <label>Expires</label>
-                            <select required>
-                                <option value="" disabled selected hidden>Month</option>
-                                <option value="january">January</option>
-                                <option value="february">February</option>
-                                <option value="march">March</option>
-                                <option value="april">April</option>
-                                <option value="may">May</option>
-                                <option value="june">June</option>
-                                <option value="july">July</option>
-                                <option value="august">August</option>
-                                <option value="september">September</option>
-                                <option value="october">October</option>
-                                <option value="november">November</option>
-                                <option value="december">December</option>
-                            </select>
-                            <select required>
-                                <option value="" disabled selected hidden>Year</option>
-                                <option value="2018">2018</option>
-                                <option value="2019">2019</option>
-                                <option value="2020">2020</option>
-                                <option value="2021">2021</option>
-                                <option value="2022">2022</option>
-                                <option value="2023">2023</option>
-                            </select>
-                        </div>
-                        <div class="cvv">
-                            <label for="cvv">CVV</label>
-                            <input type="text" name="cvv" required>
-                        </div>
-                        <div class="save-card">
-                            <input class="checkbox" type="checkbox" name="save-card" checked>
-                            <p class="save-card-label">Save card information to my account.</p>
-                        </div>
-                    </form>
+                    <h6 class="label">Shipping Address:</h6>
+                    <a class="helper-link">Edit</a>
+                    <span>Emily Mattison</span>
+                    <span>534 Twin Drive</span>
+                    <span>Spartanburg, SC 29302</span>
+                    <span>USA</span>
                 </div>
-                <div class="divider"></div>
-                <form class="billing-address-form">
-                    <h6 class="label">Billing Address:</h6>
+                <form class="delivery-method-form">
+                    <h6 class="label">Delivery Method:</h6>
                     <div class="radio-option">
-                         <input class="radio-button" type="radio" name="delivery-method" value="same-as-shipping" id="same-as-shipping" checked>
-                         <label for="same-as-shipping"><span>Same as Shipping Address</span><br>Emily Mattison<br>534 Twin Drive<br>Spartanburg, SC 29302<br>USA</label>
+                         <input class="radio-button" type="radio" name="delivery-method" value="standard" id="standard" checked>
+                         <label for="standard"><span>Expected by Monday, July 16</span><br>Standard Shipping<br><span>$7.95</span></label>
                     </div>
                     <div class="radio-option">
-                        <input class="radio-button" type="radio" name="delivery-method" value="new-address" id="new-address">
-                        <label for="new-address"><span>Add New Address</span></label>
+                        <input class="radio-button" type="radio" name="delivery-method" value="express" id="express">
+                        <label for="express"><span>Expected by Friday, July 13</span><br>Express Shipping<br><span>$10.00</span></label>
                     </div>
-                    <fieldset class="billing-address-fieldset">
-                        <label for="full-name">Full Name</label>
-                        <input type="text" name="full-name" required>
-                        <label for="street-address">Street Address</label>
-                        <input type="text" name="street-address" required>
-                        <label for="apartment">Apartment, Suite, Unit, etc.</label>
-                        <span class="optional-text">(optional)</span>
-                        <input type="text" name="apartment">
-                        <label for="city">City</label>
-                        <input type="text" name="city" required>
-                        <label for="State">State</label>
-                        <input type="text" name="state" required>
-                        <label for="zip-code">Zip Code</label>
-                        <input type="text" name="zip-code" required>
-                        <label for="phone">Phone</label>
-                        <input type="text" name="phone" required>
-                    </fieldset>
-                    <input class="submit-button cta" type="submit" value="Save &amp; Continue">
+                    <div class="radio-option">
+                        <input class="radio-button" type="radio" name="delivery-method" value="overnight" id="overnight">
+                        <label for="overnight"><span>Expected by Thursday, July 12</span><br>Overnight Shipping<br><span>$20.00</span></label>
+                    </div>
                 </form>
-                
+                <div class="divider"></div>
+                <h4>Payment</h4>
+                <div class="checkout-text">
+                    <h6 class="label">Billing Address:</h6>
+                    <a class="helper-link">Edit</a>
+                    <span>Emily Mattison</span>
+                    <span>534 Twin Drive</span>
+                    <span>Spartanburg, SC 29302</span>
+                    <span>USA</span>
+                </div>
+                <div class="checkout-text">
+                    <h6 class="label">Payment Type:</h6>
+                    <a class="helper-link">Edit</a>
+                    <div class="card-information">
+                        <img class="card-type" src="images/card-types/visa.png" alt="Visa">
+                        <span>Visa ending in 9160, 01/18</span>
+                    </div>
+                </div>
+                <div class="checkout-links">
+                    <a class="checkout-link">Redeem a Gift Card</a>
+                    <a class="checkout-link">Enter a Promo Code</a>
+                </div>
+                <input class="submit-button cta" type="submit" value="Place My Order">
                 <div class="help-information">
                     <h6>Need Help?</h6>
                     <p class="helper-text">Give us a call at 1-800-381-2784.</p>
