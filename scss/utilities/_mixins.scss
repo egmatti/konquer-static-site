@@ -35,7 +35,7 @@
 
 // BOX SHADOW
 
-@mixin box-shadow( $h: 0px , $v: 1.5px , $b: 1.5px , $s: 0px , $c: $color-box-shadow ) {
+@mixin box-shadow( $h: 0px , $v: 1px , $b: 7.5px , $s: 0px , $c: $color-box-shadow ) {
   -webkit-box-shadow: $h $v $b $s $c;
   -moz-box-shadow: $h $v $b $s $c;
   box-shadow: $h $v $b $s $c;

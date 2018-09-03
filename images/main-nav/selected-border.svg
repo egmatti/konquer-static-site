@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="6px" viewBox="0 0 91 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Selected Border</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-Mockups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation" transform="translate(-100.000000, -130.000000)" fill="#85BAA1">
+            <g id="Menu" transform="translate(100.000000, 130.000000)">
+                <g id="Menu-Background">
+                    <g id="Menu-Border">
+                        <rect id="Selected-Border" x="0" y="0" width="90.4277198" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

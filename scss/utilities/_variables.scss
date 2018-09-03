@@ -22,7 +22,7 @@ $melon: #C26098;
 $color-body: $off-white;
 $color-border: rgba($light-blue-gray, 0.5);
 
-$color-box-shadow: rgba($black, 0.5);
+$color-box-shadow: rgba($midnight, 0.25);
 $color-text-shadow: rgba($black, 0.5);
 
 $color-headline: $black;
@@ -52,8 +52,9 @@ $color-table-header: $indigo;
 $color-table-border: rgba($black, 0.75);
 $color-table-row: rgba($periwinkle, 0.20);
 
-
 $color-header: $white;
+$color-main-nav-item-border: $sea-green;
+$color-mega-menu: $white;
 $color-footer: $white;
 
 $color-product-name: $black;
@@ -98,6 +99,8 @@ $border-size-radio-button: 2px;
 $border-size-dropdown: 0.75px;
 $border-size-table: 0.75px;
 $border-size-header: 2px;
+$border-size-main-nav-item: 4px;
+$border-size-mega-menu: 2px;
 $border-size-footer: 3px;
 $border-size-frame: 3px;
 $border-size-product-size-selector: 2px;
@@ -114,6 +117,8 @@ $border-dropdown: $border-size-dropdown solid $color-dropdown;
 $border-dropdown-focused: $border-size-dropdown solid $color-dropdown-focused;
 $border-table: $border-size-table solid $color-table-border;
 $border-header: $border-size-header solid $color-border;
+$border-main-nav-item: $border-size-main-nav-item solid $color-main-nav-item-border;
+$border-mega-menu: $border-size-mega-menu solid $color-border;
 $border-footer: $border-size-footer solid $color-border;
 $border-frame: $border-size-frame solid $color-border;
 $border-product-size-selector: $border-size-product-size-selector solid $color-product-size-selector;

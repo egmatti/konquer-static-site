@@ -63,9 +63,24 @@ header {
 .main-nav--left {
 
     li {
+        border-bottom: $border-size-main-nav-item solid $white;
+        box-sizing: border-box;
         font-weight: $font-weight-demi-bold;
         margin-right: 40px;
+        position: relative;
+
+        &:hover {
+            border-bottom: $border-main-nav-item;
+        }
     }
+}
+
+.header--default .main-nav--left li {
+    padding: 45px 0;
+}
+
+.header--scrolled .main-nav--left li {
+    padding: 27.5px 0;
 }
 
 .logo {
@@ -105,3 +120,74 @@ header {
 .bag {
     transform: translateY(7.5px);
 }
+
+.mega-menu {
+    @include box-shadow();
+    @include content-width-large();
+    background: $color-mega-menu;
+    height: auto;
+    position: relative;
+    top: 2px;
+}
+
+.mega-menu-nav {   
+    align-items: start;
+    box-sizing: border-box;
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: 2fr 1fr 4fr;
+    padding: 40px;
+}
+
+.mega-menu-nav--category .category-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.mega-menu-nav h6 {
+    @extend .label;
+    font-size: 1rem;
+}
+
+.mega-menu-nav--category ul, .mega-menu-nav--featured ul {
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 0;
+    -webkit-padding-start: 0;
+
+    li {
+        align-self: start;
+        list-style-type: none;
+
+        a {
+            color: $color-body-text;
+            cursor: pointer;
+            font-size: 0.925rem;
+            text-decoration: none;
+            line-height: $line-height-footer-nav;
+
+            &:hover {
+                color: $color-body-text-hover;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.mega-menu-nav--image-links {
+    @include flexbox($justify: space-between);
+
+    div {
+        width: 45%;
+
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+
+        a {
+            margin-top: 10px;
+        }
+    }
+}
+

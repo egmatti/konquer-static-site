@@ -778,7 +778,7 @@ button, .cta, .cta--small, .submit-button {
   float: right;
   font-family: "Avenir Next", Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 0.9725rem;
+  font-size: 0.925rem;
   letter-spacing: 1.6px;
   text-transform: uppercase; }
   .arrow-link:hover {
@@ -861,7 +861,7 @@ select {
   select:focus {
     outline: 0.75px solid rgba(41, 41, 100, 0.6); }
 
-.label, #customer-care-page .content .customer-care-text table tr th {
+.label, .mega-menu-nav h6, #customer-care-page .content .customer-care-text table tr th {
   color: #222222;
   font-weight: 600;
   letter-spacing: 1.45px;
@@ -1035,8 +1035,19 @@ header {
   text-shadow: none; }
 
 .main-nav--left li {
+  border-bottom: 4px solid #ffffff;
+  box-sizing: border-box;
   font-weight: 600;
-  margin-right: 40px; }
+  margin-right: 40px;
+  position: relative; }
+  .main-nav--left li:hover {
+    border-bottom: 4px solid #85BAA1; }
+
+.header--default .main-nav--left li {
+  padding: 45px 0; }
+
+.header--scrolled .main-nav--left li {
+  padding: 27.5px 0; }
 
 .logo {
   left: 50%;
@@ -1065,6 +1076,63 @@ header {
 
 .bag {
   transform: translateY(7.5px); }
+
+.mega-menu {
+  -webkit-box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
+  -moz-box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
+  box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
+  margin: 0 auto;
+  max-width: 1224px;
+  width: 85%;
+  background: #ffffff;
+  height: auto;
+  position: relative;
+  top: 2px; }
+
+.mega-menu-nav {
+  align-items: start;
+  box-sizing: border-box;
+  display: grid;
+  grid-column-gap: 40px;
+  grid-template-columns: 2fr 1fr 4fr;
+  padding: 40px; }
+
+.mega-menu-nav--category .category-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%; }
+
+.mega-menu-nav h6 {
+  font-size: 1rem; }
+
+.mega-menu-nav--category ul, .mega-menu-nav--featured ul {
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0; }
+  .mega-menu-nav--category ul li, .mega-menu-nav--featured ul li {
+    align-self: start;
+    list-style-type: none; }
+    .mega-menu-nav--category ul li a, .mega-menu-nav--featured ul li a {
+      color: rgba(34, 34, 34, 0.75);
+      cursor: pointer;
+      font-size: 0.925rem;
+      text-decoration: none;
+      line-height: 2.85rem; }
+      .mega-menu-nav--category ul li a:hover, .mega-menu-nav--featured ul li a:hover {
+        color: #222222;
+        text-decoration: underline; }
+
+.mega-menu-nav--image-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+  .mega-menu-nav--image-links div {
+    width: 45%; }
+    .mega-menu-nav--image-links div img {
+      object-fit: contain;
+      width: 100%; }
+    .mega-menu-nav--image-links div a {
+      margin-top: 10px; }
 
 footer {
   clear: both;
@@ -1342,9 +1410,9 @@ footer small {
     margin-top: 25px;
     width: 425px; }
   #home-page .hero-text button, #home-page .hero-text .cta, #home-page .hero-text .cta--small, #home-page .hero-text .submit-button {
-    -webkit-box-shadow: 0px 1.5px 1.5px 0px rgba(34, 34, 34, 0.5);
-    -moz-box-shadow: 0px 1.5px 1.5px 0px rgba(34, 34, 34, 0.5);
-    box-shadow: 0px 1.5px 1.5px 0px rgba(34, 34, 34, 0.5);
+    -webkit-box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
+    -moz-box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
+    box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
     -webkit-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
     -moz-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
     text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
@@ -1840,7 +1908,7 @@ footer small {
 #checkout-page .checkout-information .checkout-text {
   margin-top: 40px; }
 
-#checkout-page .checkout-information .checkout-text .label, #checkout-page .checkout-information .checkout-text #customer-care-page .content .customer-care-text table tr th, #customer-care-page .content .customer-care-text table tr #checkout-page .checkout-information .checkout-text th {
+#checkout-page .checkout-information .checkout-text .label, #checkout-page .checkout-information .checkout-text .mega-menu-nav h6, .mega-menu-nav #checkout-page .checkout-information .checkout-text h6, #checkout-page .checkout-information .checkout-text #customer-care-page .content .customer-care-text table tr th, #customer-care-page .content .customer-care-text table tr #checkout-page .checkout-information .checkout-text th {
   float: left;
   margin-bottom: 15px;
   vertical-align: top; }
