@@ -6,6 +6,13 @@
 // HEADER
 
 $(document).ready(function(){
+  $(".nav-item--women").mouseenter(function() {
+      $(".mega-menu").css("display", "block");
+      $(".women-nav").css("display", "grid");
+  });
+});
+
+$(document).ready(function(){
 
     if ($("body").not("#home-page")) {
 
@@ -31,8 +38,8 @@ $(document).ready(function(){
                     $(".main-nav--left li").removeClass("nav-items--scrolled");
                     $(".main-nav--right li").removeClass("nav-items--scrolled");
                     $(".logo").attr("src", "images/main-nav/logo-black.png");
-                    $(".search").css(("transform", "translateY(3px)"));
-                    $(".bag").css(("transform", "translateY(7.5px)"));
+                    $(".search").css("transform", "translateY(3px)");
+                    $(".bag").css("transform", "translateY(7.5px)");
 
                 } else if ($(window).scrollTop() > 50) {
                     $("header").addClass("header--scrolled");
@@ -45,7 +52,7 @@ $(document).ready(function(){
                     $(".main-nav--right li").removeClass("nav-items--default");
                     $(".logo").attr("src", "images/main-nav/wordmark-black.svg");
                     $(".search").css("transform", "translateY(5px)");
-                    $(".bag").css(("transform", "translateY(-7.5px)"));
+                    $(".bag").css("transform", "translateY(-7.5px)");
                 }
             });
         });

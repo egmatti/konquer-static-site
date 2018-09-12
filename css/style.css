@@ -1090,6 +1090,7 @@ header {
 .mega-menu {
   background: #ffffff;
   border-bottom: 2px solid rgba(219, 223, 231, 0.5);
+  display: none;
   height: auto;
   position: relative;
   top: 2px;
@@ -1101,7 +1102,7 @@ header {
   width: 85%;
   align-items: start;
   box-sizing: border-box;
-  display: grid;
+  display: none;
   grid-column-gap: 40px;
   grid-template-columns: 2fr 1fr 4fr;
   padding: 40px 0; }

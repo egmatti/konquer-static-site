@@ -146,6 +146,7 @@ header {
 .mega-menu {
     background: $color-mega-menu;
     border-bottom: $border-header;
+    display: none;
     height: auto;
     position: relative;
     top: 2px;
@@ -156,7 +157,7 @@ header {
     @include content-width-large();
     align-items: start;
     box-sizing: border-box;
-    display: grid;
+    display: none;
     grid-column-gap: 40px;
     grid-template-columns: 2fr 1fr 4fr;
     padding: 40px 0;
