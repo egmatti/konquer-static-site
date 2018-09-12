@@ -12,6 +12,7 @@ $(document).ready(function(){
         $(function () {
             $("header").addClass("header--default");
             $(".logo").addClass("logo--default");
+            $(".main-nav--left").addClass("main-nav--left--default");
             $(".main-nav--left li").addClass("nav-items--default");
             $(".main-nav--right li").addClass("nav-items--default");
             $(".logo").attr("src", "images/main-nav/logo-black.png");

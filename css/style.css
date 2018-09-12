@@ -1003,6 +1003,20 @@ header {
   border-bottom: 2px solid rgba(219, 223, 231, 0.5);
   height: 72.5px; }
 
+.nav-items--default {
+  color: #222222;
+  text-shadow: none; }
+
+.nav-items--default--home {
+  -webkit-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
+  -moz-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
+  text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
+  color: #ffffff; }
+
+.nav-items--scrolled {
+  color: #222222;
+  text-shadow: none; }
+
 .main-nav {
   margin: 0 auto;
   max-width: 1224px;
@@ -1020,28 +1034,24 @@ header {
   list-style-type: none;
   text-transform: uppercase; }
 
-.nav-items--default {
-  color: #222222;
-  text-shadow: none; }
-
-.nav-items--default--home {
-  -webkit-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
-  -moz-text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
-  text-shadow: 0px 1.5px 1.5px rgba(34, 34, 34, 0.5);
-  color: #ffffff; }
-
-.nav-items--scrolled {
-  color: #222222;
-  text-shadow: none; }
-
 .main-nav--left li {
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
   box-sizing: border-box;
   font-weight: 600;
   margin-right: 40px;
   position: relative; }
   .main-nav--left li:hover {
     border-bottom: 4px solid #85BAA1; }
+
+.main-nav--left--default:hover a li {
+  color: rgba(34, 34, 34, 0.5); }
+.main-nav--left--default a:hover li {
+  color: #222222; }
+
+.main-nav--left--home:hover a li {
+  color: rgba(255, 255, 255, 0.75); }
+.main-nav--left--home a:hover li {
+  color: #ffffff; }
 
 .header--default .main-nav--left li {
   padding: 45px 0; }
@@ -1078,24 +1088,23 @@ header {
   transform: translateY(7.5px); }
 
 .mega-menu {
-  -webkit-box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
-  -moz-box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
-  box-shadow: 0px 1px 7.5px 0px rgba(41, 41, 100, 0.25);
+  background: #ffffff;
+  border-bottom: 2px solid rgba(219, 223, 231, 0.5);
+  height: auto;
+  position: relative;
+  top: 2px;
+  width: 100%; }
+
+.mega-menu-nav {
   margin: 0 auto;
   max-width: 1224px;
   width: 85%;
-  background: #ffffff;
-  height: auto;
-  position: relative;
-  top: 2px; }
-
-.mega-menu-nav {
   align-items: start;
   box-sizing: border-box;
   display: grid;
   grid-column-gap: 40px;
   grid-template-columns: 2fr 1fr 4fr;
-  padding: 40px; }
+  padding: 40px 0; }
 
 .mega-menu-nav--category .category-columns {
   display: grid;

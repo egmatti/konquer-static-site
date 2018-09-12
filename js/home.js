@@ -11,6 +11,7 @@ $(document).ready(function () {
         $(function () {
             $("header").addClass("header--default--home");
             $(".logo").addClass("logo--default--home");
+            $(".main-nav--left").addClass("main-nav--left--home");
             $(".main-nav--left li").addClass("nav-items--default--home");
             $(".main-nav--right li").addClass("nav-items--default--home");
             $(".logo").attr("src", "images/main-nav/logo-white.png");
@@ -21,10 +22,12 @@ $(document).ready(function () {
                 if ($(window).scrollTop() < 50) {
                     $("header").addClass("header--default--home");
                     $(".logo").addClass("logo--default--home");
+                    $(".main-nav--left").addClass("main-nav--left--home");
                     $(".main-nav--left li").addClass("nav-items--default--home");
                     $(".main-nav--right li").addClass("nav-items--default--home");
                     $("header").removeClass("header--scrolled");
                     $(".logo").removeClass("logo--scrolled");
+                    $(".main-nav--left").removeClass("main-nav--left--default");
                     $(".main-nav--left li").removeClass("nav-items--scrolled");
                     $(".main-nav--right li").removeClass("nav-items--scrolled");
                     $(".logo").attr("src", "images/main-nav/logo-white.png");
@@ -35,10 +38,12 @@ $(document).ready(function () {
                 } else if ($(window).scrollTop() > 50) {
                     $("header").addClass("header--scrolled");
                     $(".logo").addClass("logo--scrolled");
+                    $(".main-nav--left").addClass("main-nav--left--default");
                     $(".main-nav--left li").addClass("nav-items--scrolled");
                     $(".main-nav--right li").addClass("nav-items--scrolled");
                     $("header").removeClass("header--default--home");
                     $(".logo").removeClass("logo--default--home");
+                    $(".main-nav--left").removeClass("main-nav--left--home");
                     $(".main-nav--left li").removeClass("nav-items--default--home");
                     $(".main-nav--right li").removeClass("nav-items--default--home");
                     $(".logo").attr("src", "images/main-nav/wordmark-black.svg");
