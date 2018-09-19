@@ -6,10 +6,28 @@
 // HEADER
 
 $(document).ready(function(){
-  $(".nav-item--women").mouseenter(function() {
-      $(".mega-menu").css("display", "block");
-      $(".women-nav").css("display", "grid");
-  });
+    $(".nav-item--women").mouseenter(function() {
+        $(".mega-menu").css("display", "block");
+        $(".women-nav").css("display", "grid");
+    });
+    $(".nav-item--women").mouseleave(function () {
+        $(".mega-menu").css("display", "none");
+        $(".women-nav").css("display", "none");
+    });
+    
+
+    if ($(".women-nav").css("display", "grid")) {
+        $(".mega-menu, .women-nav").mouseenter(function () {
+            $(".mega-menu").css("display", "block");
+            $(".women-nav").css("display", "grid");
+        });
+        $(".mega-menu").mouseleave(function () {
+            $(".mega-menu").css("display", "none");
+            $(".women-nav").css("display", "none");
+        });
+    } else {
+
+    }
 });
 
 $(document).ready(function(){
