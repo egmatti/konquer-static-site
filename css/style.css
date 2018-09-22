@@ -421,6 +421,7 @@ body {
   background: #fcfcfc; }
 
 a {
+  cursor: pointer;
   outline: none; }
 
 h1 {
